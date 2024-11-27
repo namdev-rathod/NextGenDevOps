@@ -40,13 +40,13 @@ This course builds a strong foundation for beginners while offering advanced ins
 2. Master Site Reliability Engineering **(SRE)** Principles 🛡️.  
 3. Gain hands-on expertise with modern tools and workflows 🧰.  
 4. Solve real-world challenges with **CI/CD Pipelines**, **Cloud Infrastructure**, and **Microservices** 🚧.  
-5. Implement advanced concepts like **GitOps, DevSecOps** and **Troubleshooting Techniques** 🔐.  
+5. Implement advanced concepts like **GitOps, DevSecOps**, **Monitoring** and **Troubleshooting Techniques** 🔐.  
 
 ---
 
 ### **Course Modules** 📖  
 
-#### **Module 1: DevOps Foundations (Weeks 1-2)** 🌱  
+#### **Module 1: DevOps Foundations** 🌱  
 - **Introduction to DevOps & SRE**  
   - What is DevOps? 🤔  
   - DevOps vs SRE: Role comparison and collaboration.  
@@ -58,10 +58,10 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 2: CI/CD Pipelines (Weeks 3-5)** 🛠️  
+#### **Module 2: CI/CD Pipelines** 🛠️  
 - **Understanding CI/CD**  
   - The importance of Continuous Integration, Delivery, and Deployment 🔄.  
-  - Key CI/CD tools: Jenkins, GitLab CI/CD, GitHub Actions, CircleCI ⚙️.  
+  - Key CI/CD tools: Jenkins, GitLab CI/CD and GitHub Actions ⚙️.  
 - **Building Pipelines**  
   - Hands-on: Setting up pipelines for Node.js, Java, or Python applications 💻.  
   - Advanced pipeline features: Parallel builds, caching, and artifact management 🚀.  
@@ -72,10 +72,10 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 3: Infrastructure as Code (IaC) (Weeks 6-7)** 🏗️  
+#### **Module 3: Infrastructure as Code (IaC)** 🏗️  
 - **Introduction to IaC**  
   - What is IaC? Benefits and use cases 📜.  
-  - IaC tools overview: Terraform, CloudFormation, Ansible ⚙️.  
+  - IaC tools overview: Terraform, CloudFormation, CDK ⚙️.  
 - **Hands-on with Terraform**  
   - Writing Terraform scripts for AWS and Azure ☁️.  
   - Managing state files, modules, and workspaces 🗂️.  
@@ -85,7 +85,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 4: Containers & Orchestration (Weeks 8-10)** 🐳  
+#### **Module 4: Containers & Orchestration** 🐳  
 - **Containers Basics**  
   - Understanding Docker and containerization 🛳️.  
   - Writing Dockerfiles and managing Docker Compose ⚙️.  
@@ -97,7 +97,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 5: GitOps & DevSecOps (Weeks 11-12)** 🔐  
+#### **Module 5: GitOps & DevSecOps** 🔐  
 - **GitOps: Infrastructure as Code through Git**  
   - Principles of GitOps and its significance 💡.  
   - Tools: FluxCD and ArgoCD.  
@@ -109,7 +109,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 6: SRE Practices (Weeks 13-14)** 🛡️  
+#### **Module 6: SRE Practices** 🛡️  
 - **SRE Fundamentals**  
   - Defining SLAs, SLOs, and SLIs 📏.  
   - Error budgets and incident response 🚨.  
@@ -122,7 +122,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 7: Troubleshooting & Microservices (Weeks 15-16)** 🔧  
+#### **Module 7: Troubleshooting & Microservices** 🔧  
 - **Advanced Troubleshooting**  
   - Common issues in CI/CD, containers, and Kubernetes 🕵️‍♂️.  
   - Debugging tools: kubectl, Docker CLI, log aggregators 🧰.  
@@ -136,11 +136,10 @@ This course builds a strong foundation for beginners while offering advanced ins
 ### **Key Tools and Technologies** 🛠️  
 - **Version Control**: Git, GitHub, GitLab 🖇️.  
 - **CI/CD**: Jenkins, GitHub Actions, GitLab CI/CD ⚙️.  
-- **IaC**: Terraform, CloudFormation 🏗️.  
+- **IaC**: Terraform, CDK 🏗️.  
 - **Containers**: Docker, Kubernetes, Helm 🐳.  
-- **Monitoring & Observability**: Prometheus, Grafana, ELK Stack, Datadog 📊.  
-- **Security**: Snyk, SonarQube, Trivy 🔐.  
-- **Chaos Engineering**: Gremlin, Chaos Monkey 🎲.  
+- **Monitoring & Observability**: Grafana 📊.  
+- **Security**: Snyk, SonarQube, Trivy 🔐.    
 - **Cloud Providers**: AWS, Azure ☁️.  
 
 ---
