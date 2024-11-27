@@ -7,8 +7,8 @@ This course will build a solid foundation for beginners while offering advanced 
 ---
 
 ### **Course Duration**  
-- **Total Duration**: (3 months)  
-- **Weekend Commitment**:  hours (theory + hands-on)  
+- **Total Duration**: 3 months
+- **Weekend Commitment**:  4-5 hours (theory + hands-on) 
 
 ---
 
@@ -23,7 +23,7 @@ This course will build a solid foundation for beginners while offering advanced 
 
 ### **Course Modules**  
 
-#### **Module 1: DevOps Foundations (Weeks 1-2)**  
+#### **Module 1: DevOps Foundations**  
 - **Introduction to DevOps & SRE**  
   - What is DevOps?  
   - DevOps vs SRE: Role comparison and collaboration.  
