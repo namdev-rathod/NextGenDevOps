@@ -7,10 +7,9 @@ This course builds a strong foundation for beginners while offering advanced ins
 ---
 
 ### **Course Duration** ⏳  
-- **Total Duration**: 3 months 📆  
+- **Total Duration**: 3 Months 📆  
 - **Batch Commitment**: (Theory + Hands-On + Projects) 
-- **Location**: Online 📍
-- **Duration**: 3 Months  📅 
+- **Location**: Online 📍 
 - **Batch Start Date**:  1st December 2024 📅 
 - **Batch Time**: Sat-Sun (Morning 9 am to 11 am IST) ⏰
 - **Language**: English 🗣
@@ -21,8 +20,11 @@ This course builds a strong foundation for beginners while offering advanced ins
 🌐 𝐖𝐞𝐛𝐬𝐢𝐭𝐞: https://uxito.net  
 📞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: +91 7276 1219 83  
 ✉️ 𝐄𝐦𝐚𝐢𝐥: support@uxito.net
+
 📺 𝐘𝐨𝐮𝐓𝐮𝐛𝐞: https://www.youtube.com/@uxitotechnologies
+
 📺 𝐘𝐨𝐮𝐓𝐮𝐛𝐞: https://www.youtube.com/@namdev.devops
+
 📺 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐇𝐢𝐧𝐝𝐢: https://www.youtube.com/@devopswithnamdev
 
 📌 Enroll Today and Start Building Your Future in DevOps!
