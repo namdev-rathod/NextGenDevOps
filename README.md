@@ -8,9 +8,9 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ### **Course Duration** ⏳  
 - **Total Duration**: 3 months 📆  
-- **Batch Commitment**: (theory + hands-on + Projects) 
+- **Batch Commitment**: (Theory + Hands-On + Projects) 
 - **Location**: Online 📍
-- **Duration**: 3 months  📅 
+- **Duration**: 3 Months  📅 
 - **Batch Start Date**:  1st December 2024 📅 
 - **Batch Time**: Sat-Sun (Morning 9 am to 11 am IST) ⏰
 - **Language**: English 🗣
