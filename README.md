@@ -18,7 +18,9 @@ This course builds a strong foundation for beginners while offering advanced ins
 ### **𝐅𝐨𝐫 𝐋𝐢𝐯𝐞 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠 & 𝐀𝐧𝐲 𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐧**:
 
 🌐 𝐖𝐞𝐛𝐬𝐢𝐭𝐞: https://uxito.net  
-📞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: +91 7276 1219 83  
+
+📞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: +91 7276 1219 83 
+
 ✉️ 𝐄𝐦𝐚𝐢𝐥: support@uxito.net
 
 📺 𝐘𝐨𝐮𝐓𝐮𝐛𝐞: https://www.youtube.com/@uxitotechnologies
@@ -34,11 +36,11 @@ This course builds a strong foundation for beginners while offering advanced ins
 ---
 
 ### **Course Objectives** 🎯  
-1. Build a strong foundation in DevOps practices 🛠️.  
-2. Master Site Reliability Engineering (SRE) principles 🛡️.  
+1. Build a strong foundation in **DevOps Practices** 🛠️.  
+2. Master Site Reliability Engineering **(SRE)** Principles 🛡️.  
 3. Gain hands-on expertise with modern tools and workflows 🧰.  
-4. Solve real-world challenges with CI/CD pipelines, cloud infrastructure, and microservices 🚧.  
-5. Implement advanced concepts like GitOps, DevSecOps, and troubleshooting techniques 🔐.  
+4. Solve real-world challenges with **CI/CD Pipelines**, **Cloud Infrastructure**, and **Microservices** 🚧.  
+5. Implement advanced concepts like **GitOps, DevSecOps** and **Troubleshooting Techniques** 🔐.  
 
 ---
 
