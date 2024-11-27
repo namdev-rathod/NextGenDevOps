@@ -8,13 +8,13 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ### **Course Duration** ⏳  
 - **Total Duration**: 3 months 📆  
-- **Batch Commitment**: (theory + hands-on) 
-- **𝐋𝐨𝐜𝐚𝐭𝐢𝐨𝐧**: Online
-- **𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧**: 3 months  
-- **𝐁𝐚𝐭𝐜𝐡 𝐒𝐭𝐚𝐫𝐭 𝐃𝐚𝐭𝐞**:  1st December 2024  
-- **𝐁𝐚𝐭𝐜𝐡 𝐓𝐢𝐦𝐞**: Morning 9 am to 11 am IST
-- **𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞**: English  
-- **𝐅𝐞𝐞𝐬**: Online ₹12,000/- 
+- **Batch Commitment**: (theory + hands-on + Projects) 
+- **Location**: Online 📍
+- **Duration**: 3 months  📅 
+- **Batch Start Date**:  1st December 2024 📅 
+- **Batch Time**: Sat-Sun (Morning 9 am to 11 am IST) ⏰
+- **Language**: English 🗣
+- **Fees**: Online ₹12,000/- 💰
 
 ### **𝐅𝐨𝐫 𝐋𝐢𝐯𝐞 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠 & 𝐀𝐧𝐲 𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐧**:
 
