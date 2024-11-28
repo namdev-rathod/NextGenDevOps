@@ -117,10 +117,10 @@ This course builds a strong foundation for beginners while offering advanced ins
 #### **Module 2: **AWS Core Services** ☁️ 
 
 #### 0. **AWS Overview** ☁️
-     - Overview of AWS Cloud
-     - Free Tier AWS Account
-     - AWS Console Overview
-     - AWS CLI
+- Overview of AWS Cloud
+    - Free Tier AWS Account
+    - AWS Console Overview
+    - AWS CLI
 
 #### 1. **Compute Services**
      
