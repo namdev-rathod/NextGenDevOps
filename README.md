@@ -99,8 +99,8 @@ This course builds a strong foundation for beginners while offering advanced ins
    - **General**  
      - `date`, `df`, `free`, `wget` 🌐.   
 
-#### 3. **Shell Scripting**  
-    - What is shell?
+#### 3. **Shell Scripting**
+- What is shell?
     - Basics of shell scripting?
     - Some examples of shell scripting.
     - Event Scheduler - CronJob
