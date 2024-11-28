@@ -53,11 +53,144 @@ This course builds a strong foundation for beginners while offering advanced ins
 - **Introduction to DevOps & SRE**  
   - What is DevOps? 🤔  
   - DevOps vs SRE: Role comparison and collaboration.  
-  - The DevOps lifecycle and SRE principles 🔄.  
-- **Version Control with Git**  
+  - The DevOps lifecycle and SRE principles 🔄.
+  - Why Organizations are adopting DevOps?
+  - Infrastructure management before DevOps?
+
+---
+
+  ### **Key Tools and Technologies** 🛠️  
+- **Version Control**: Git, GitHub, GitLab 🖇️.  
+- **CI/CD**: Jenkins, GitHub Actions, GitLab CI/CD ⚙️.  
+- **IaC**: Terraform, CloudFormation & CDK 🏗️.  
+- **Containers**: Docker 🐳.
+- **Container Orchestration**: Kubernetes, Helm .  
+- **Monitoring & Observability**: CloudWatch & Grafana 📊.  
+- **Security**: Snyk, SonarQube, Trivy 🔐.    
+- **Cloud Providers**: AWS, Azure ☁️.  
+
+---
+
+#### **Module 1: Linux Foundations** 🐧 
+
+#### 1. **Linux Basics**
+   - **What is Linux?**  
+     - Introduction
+     - Why Linux for DevOps culture?
+     - Linux File System Hierarchy
+
+   - **Why Linux?**  
+     - Windows vs Linux Comparisons.
+     - Stability and performance 🛡️.  
+     - High scalability 🌐.  
+     - Preferred OS in cloud and containerized environments (e.g., Kubernetes).  
+
+#### 2. **Key Linux Commands**  
+   - **File Operations**  
+     - `ls`, `cd`, `pwd`, `mkdir`, `rm`, `cp`, `mv` 📂.  
+   - **User Management**  
+     - `whoami`, `sudo`, `adduser`, `passwd` 👤.  
+   - **Permissions**  
+     - `chmod`, `chown`, `ls -l`, `setfacl/getfacl` 🔒.  
+   - **Process Management**  
+     - `ps`, `top`, `kill`, `htop` ⚙️.  
+   - **Networking**  
+     - `ping`, `ifconfig`, `netstat`, `curl` 🌐.  
+   - **General**  
+     - `date`, `df`, `free`, `wget` 🌐.   
+
+#### 3. **Shell Scripting**  
+    - What is shell?
+    - Basics of shell scripting?
+    - Some examples of shell scripting.
+    - Event Scheduler - CronJob
+
+#### 4. **Package Management**  
+   - **Debian-based systems**: `apt-get`, `dpkg`.  
+   - **Red Hat-based systems**: `yum`, `dnf`, `rpm`. 
+
+  - **Version Control with Git**  
   - Git basics and branching strategies 🌿.  
   - Git workflows (Feature Branching, Git Flow).  
   - Hands-on: Setting up and managing a Git repository 📝.  
+
+#### **Module 2: **AWS Core Services** ☁️ 
+
+#### 0. **AWS Overview** ☁️
+     - Overview of AWS Cloud
+     - Free Tier AWS Account
+     - AWS Console Overview
+     - AWS CLI
+
+#### 1. **Compute Services**
+     
+   - **Amazon EC2 (Elastic Compute Cloud)** 🖥️  
+     - Virtual servers in the cloud.  
+     - Scalable compute capacity.  
+     - Key concepts: Instances, AMIs, Elastic IPs. 
+     - EBS Volume Management 📂
+     - Load Balancers 
+
+   - **AWS Lambda** 🚀  
+     - Serverless compute service.  
+     - Run code without provisioning servers.  
+     - Supports event-driven architecture.  
+
+   - **API Gateway** 🚀  
+     - Overview of AWS API Gateway.
+     - Creating and deploying RESTful APIs.
+     - Integrating APIs with AWS Lambda and other AWS services.  
+  
+#### 2. **Storage Services**
+   - **Amazon S3 (Simple Storage Service)** 📦  
+     - Scalable object storage for any type of data.  
+     - Use cases: Backups, hosting static websites.  
+
+#### 3. **Networking Services**
+   - **Amazon VPC (Virtual Private Cloud)** 🌐  
+     - Isolated network in AWS.  
+     - Components: Subnets, Route Tables, Gateways, Security Group vs NACL. 
+     - VPC Peering
+     - Nat Gateway 
+
+#### 4. **Database Services**
+   - **Amazon RDS (Relational Database Service)** 🗃️  
+     - Managed relational database service (MySQL, PostgreSQL, etc.).  
+     - Create and Management
+     - Backup and Restore
+     - Migration
+
+   - **DynamoDB** ⚡  
+     - NoSQL database with high performance.
+     - Create and Management  
+
+#### 5. **IAM (Identity and Access Management)** 🔒  
+   - **What is IAM?**  
+     - Manage access to AWS services securely. 
+     - Create and Manage IAM User, Role.
+     - MFA - Multi Factor Authentication 
+   - **Key Features**:  
+     - Users, Groups, Roles, Policies.  
+     - Permission Boundary.  
+
+#### 6. **Monitoring and Logging**
+   - **Amazon CloudWatch** 🖥️  
+     - Monitor applications and services.  
+     - Set up alarms and metrics.
+     - Log Insights
+     - Pricing  
+   - **AWS CloudTrail** 📜  
+     - Logs API calls made to AWS services.  
+
+#### 7. **Infrastructure as Code (IaC)**  
+   - **AWS CloudFormation** 🛠️  
+     - Define and provision AWS resources using code.  
+   - **AWS CDK (Cloud Development Kit)** 💻  
+     - Write infrastructure in modern programming languages (TypeScript, Python). 
+
+#### 7. **Containers and Orchestration**       
+     - Docker basics and containerization.
+     - Orchestrating containers with Amazon ECS and EKS.
 
 ---
 
@@ -136,17 +269,6 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-### **Key Tools and Technologies** 🛠️  
-- **Version Control**: Git, GitHub, GitLab 🖇️.  
-- **CI/CD**: Jenkins, GitHub Actions, GitLab CI/CD ⚙️.  
-- **IaC**: Terraform, CDK 🏗️.  
-- **Containers**: Docker, Kubernetes, Helm 🐳.  
-- **Monitoring & Observability**: Grafana 📊.  
-- **Security**: Snyk, SonarQube, Trivy 🔐.    
-- **Cloud Providers**: AWS, Azure ☁️.  
-
----
-
 ### **Course Outcomes** 🎓  
 - Implement end-to-end DevOps and SRE workflows 🏁.  
 - Master modern tools like Kubernetes, Terraform, and CI/CD platforms ⚡.  
@@ -157,3 +279,30 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 **This is your path to mastering DevOps and SRE** 🚀🌟!
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
