@@ -188,8 +188,9 @@ This course builds a strong foundation for beginners while offering advanced ins
    - **AWS CDK (Cloud Development Kit)** 💻  
      - Write infrastructure in modern programming languages (TypeScript, Python). 
 
-#### 7. **Containers and Orchestration**       
-     - Docker basics and containerization.
+#### 7. **Containers and Orchestration**
+- Overview of Container 
+    - Docker basics and containerization.
      - Orchestrating containers with Amazon ECS and EKS.
 
 ---
