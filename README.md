@@ -64,7 +64,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 - **CI/CD**: Jenkins, GitHub Actions, GitLab CI/CD ⚙️.  
 - **IaC**: Terraform, CloudFormation & CDK 🏗️.  
 - **Containers**: Docker 🐳.
-- **Container Orchestration**: Kubernetes, Helm .  
+- **Container Orchestration**: Kubernetes, Helm ☸️.  
 - **Monitoring & Observability**: CloudWatch & Grafana 📊.  
 - **Security**: Snyk, SonarQube, Trivy 🔐.    
 - **Cloud Providers**: AWS, Azure ☁️.  
