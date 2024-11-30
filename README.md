@@ -309,11 +309,8 @@ This course builds a strong foundation for beginners while offering advanced ins
   - Defining SLAs, SLOs, and SLIs 📏.  
   - Error budgets and incident response 🚨.  
 - **Monitoring & Observability**  
-  - Tools: Prometheus, Grafana, Datadog, ELK stack 📊.  
+  - Tools: Prometheus, Grafana & CloudWatch 📊.  
   - Building dashboards and alerting 🔔.  
-- **Capacity Planning & Chaos Engineering**  
-  - Tools: Gremlin, Chaos Monkey 🎲.  
-  - Hands-on: Running chaos experiments 🔄.  
 
 ---
 
@@ -321,6 +318,6 @@ This course builds a strong foundation for beginners while offering advanced ins
   - Jira Workflows
   - Confluence documentation
   - Sprint Planning
-  
+
 
 **This is your path to mastering DevOps and SRE** 🚀🌟!
