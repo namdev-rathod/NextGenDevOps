@@ -66,6 +66,18 @@ This course builds a strong foundation for beginners while offering advanced ins
    - **Willingness to learn new tools** and technologies regularly as DevOps evolves.  
 ---
 
+### **Key Tools and Technologies** 🛠️  
+- **Version Control**: Git, GitHub, GitLab 🖇️.  
+- **CI/CD**: Jenkins, GitHub Actions, GitLab CI/CD ⚙️.  
+- **IaC**: Terraform, CloudFormation & CDK 🏗️.  
+- **Containers**: Docker 🐳.
+- **Container Orchestration**: Kubernetes, Helm ☸️.  
+- **Monitoring & Observability**: CloudWatch & Grafana 📊.  
+- **Security**: Snyk, SonarQube, Trivy 🔐.    
+- **Cloud Providers**: AWS, Azure ☁️.  
+
+---
+
 ### **Course Modules** 📖  
 
 #### **Module 1: DevOps Foundations** 🌱  
@@ -75,18 +87,6 @@ This course builds a strong foundation for beginners while offering advanced ins
   - The DevOps lifecycle and SRE principles 🔄.
   - Why Organizations are adopting DevOps?
   - Infrastructure management before DevOps?
-
----
-
-  ### **Key Tools and Technologies** 🛠️  
-- **Version Control**: Git, GitHub, GitLab 🖇️.  
-- **CI/CD**: Jenkins, GitHub Actions, GitLab CI/CD ⚙️.  
-- **IaC**: Terraform, CloudFormation & CDK 🏗️.  
-- **Containers**: Docker 🐳.
-- **Container Orchestration**: Kubernetes, Helm ☸️.  
-- **Monitoring & Observability**: CloudWatch & Grafana 📊.  
-- **Security**: Snyk, SonarQube, Trivy 🔐.    
-- **Cloud Providers**: AWS, Azure ☁️.  
 
 ---
 
