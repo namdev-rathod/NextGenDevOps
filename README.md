@@ -147,6 +147,11 @@ This course builds a strong foundation for beginners while offering advanced ins
      - Git Staging Area 
 
   #### 2. **Git Advance**
+       - Overview of Git
+     - Why Organizations use Git in projects?
+     - Git Setup On Local System (Windows, Linux)
+     - Git Commands
+     - Git Staging Area 
     - Git Branching Strategies
     - Git Workflows
     - Git Conflicts - Solution
