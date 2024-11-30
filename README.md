@@ -147,9 +147,9 @@ This course builds a strong foundation for beginners while offering advanced ins
      - Git Staging Area 
 
   #### 2. **Git Advance**
-     - Git Branching Strategies
-     - Git Workflows 
-     - Git Conflicts - Solution
+    - Git Branching Strategies
+    - Git Workflows
+    - Git Conflicts - Solution
   
   #### 3. **GitLab**
       - Overview of GitLab
