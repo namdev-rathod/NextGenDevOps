@@ -151,7 +151,7 @@ This course builds a strong foundation for beginners while offering advanced ins
       - Git Workflows
       - Git Conflicts - Solution
   
-  #### 3. **GitLab**
+  3. **GitLab**
       - Overview of GitLab
       - Repos Management
       - Secure Master Branch
@@ -161,7 +161,7 @@ This course builds a strong foundation for beginners while offering advanced ins
       - User Management For Repo
       - GitLab Runners
 
-  #### 3. **GitHub**
+  4. **GitHub**
       - Overview of GitLab
       - Repos Management
       - Secure Master Branch
@@ -170,22 +170,7 @@ This course builds a strong foundation for beginners while offering advanced ins
       - Integrate In CICD Pipeline 
       - User Management For Repo
 
-
-# GitLab CICD
-# Project Management 
-# SRE
-
-
-### Advance DevOps 
-
-1. End to End CICD Pipeline
-2. Pipeline Stages 
-
-
-
-
 #### **Module 2: AWS Core Services** ☁️ 
-
 #### 0. **AWS Overview** ☁️
 - Overview of AWS Cloud
     - Free Tier AWS Account
@@ -264,6 +249,24 @@ This course builds a strong foundation for beginners while offering advanced ins
      - Orchestrating containers with Amazon ECS and EKS.
 
 ---
+
+
+
+# Project Management 
+# SRE
+
+
+### Advance DevOps 
+
+1. End to End CICD Pipeline
+2. Pipeline Stages 
+
+
+
+
+
+
+
 
 #### **Module 3: CI/CD Pipelines** 🛠️  
 - **Understanding CI/CD**  
