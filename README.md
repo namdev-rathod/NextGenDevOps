@@ -80,6 +80,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ### **Course Modules** 📖  
 
+
 #### **Module 1: DevOps Foundations** 🌱  
 - **Introduction to DevOps & SRE**  
   - What is DevOps? 🤔  
@@ -87,10 +88,11 @@ This course builds a strong foundation for beginners while offering advanced ins
   - The DevOps lifecycle and SRE principles 🔄.
   - Why Organizations are adopting DevOps?
   - Infrastructure management before DevOps?
+  - Understanding of **SDLC** (Software Development Life Cycle).
 
 ---
 
-#### **Module 1: Linux Foundations** 🐧 
+#### **Module 2: Linux Foundations** 🐧 
 
 #### 1. **Linux Basics**
    - **What is Linux?**  
@@ -133,7 +135,56 @@ This course builds a strong foundation for beginners while offering advanced ins
   - Git workflows (Feature Branching, Git Flow).  
   - Hands-on: Setting up and managing a Git repository 📝.  
 
-#### **Module 2: **AWS Core Services** ☁️ 
+  ---
+
+#### **Module 3: Git Version Control System** 🐧
+  #### 1. **Git Basics**
+   - **What is Git?**  
+     - Overview of Git
+     - Why Organizations use Git in projects?
+     - Git Setup On Local System (Windows, Linux)
+     - Git Commands
+     - Git Staging Area 
+
+  #### 2. **Git Advance**
+     - Git Branching Strategies
+     - Git Workflows 
+     - Git Conflicts - Solution
+  
+  #### 3. **GitLab**
+      - Overview of GitLab
+      - Repos Management
+      - Secure Master Branch
+      - MR & Code Review Process
+      - CICD Pipeline Setup - .gitlab-ci.yml
+      - Integrate In CICD Pipeline 
+      - User Management For Repo
+      - GitLab Runners
+
+  #### 3. **GitHub**
+      - Overview of GitLab
+      - Repos Management
+      - Secure Master Branch
+      - MR & Code Review Process
+      - CICD Pipeline Setup - GitHub Actions
+      - Integrate In CICD Pipeline 
+      - User Management For Repo
+
+
+# GitLab CICD
+# Project Management 
+# SRE
+
+
+### Advance DevOps 
+
+1. End to End CICD Pipeline
+2. Pipeline Stages 
+
+
+
+
+#### **Module 2: AWS Core Services** ☁️ 
 
 #### 0. **AWS Overview** ☁️
 - Overview of AWS Cloud
@@ -214,7 +265,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 2: CI/CD Pipelines** 🛠️  
+#### **Module 3: CI/CD Pipelines** 🛠️  
 - **Understanding CI/CD**  
   - The importance of Continuous Integration, Delivery, and Deployment 🔄.  
   - Key CI/CD tools: Jenkins, GitLab CI/CD and GitHub Actions ⚙️.  
