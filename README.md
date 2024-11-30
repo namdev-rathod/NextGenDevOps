@@ -172,10 +172,9 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 #### **Module 4: Amazon Web Services** ☁️ 
 #### 0. **AWS Overview** ☁️
-  - Overview of AWS Cloud
-    - Free Tier AWS Account
-    - AWS Console Overview
-    - AWS CLI Utilities
+  - Free Tier AWS Account
+  - AWS Console Overview
+  - AWS CLI Utilities
 
 #### 1. **Compute Services**
      
