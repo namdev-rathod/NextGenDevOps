@@ -13,7 +13,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 - **Batch Start Date**:  1st December 2024 📅 
 - **Batch Time**: Sat-Sun (Morning 9 am to 11 am IST) ⏰
 - **Language**: English 🗣
-- **Fees**: Online ₹12,000/- 💰
+- **Fees**: Online ₹10,000/- 💰
 
 ### **𝐅𝐨𝐫 𝐋𝐢𝐯𝐞 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠 & 𝐀𝐧𝐲 𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐧**:
 
@@ -25,8 +25,6 @@ This course builds a strong foundation for beginners while offering advanced ins
  
 
 ✉️ 𝐄𝐦𝐚𝐢𝐥: support@uxito.net
-
-📺 𝐘𝐨𝐮𝐓𝐮𝐛𝐞: https://www.youtube.com/@uxitotechnologies
 
 📺 𝐘𝐨𝐮𝐓𝐮𝐛𝐞: https://www.youtube.com/@namdev.devops
 
