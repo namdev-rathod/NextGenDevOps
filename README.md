@@ -138,7 +138,7 @@ This course builds a strong foundation for beginners while offering advanced ins
   ---
 
 #### **Module 3: Git Version Control System** 🐧
-  #### 1. **Git Basics**
+  1. **Git Basics**
    - **What is Git?**  
      - Overview of Git
      - Why Organizations use Git in projects?
@@ -146,7 +146,7 @@ This course builds a strong foundation for beginners while offering advanced ins
      - Git Commands
      - Git Staging Area 
 
-  #### 2. **Git Advance**
+  2. **Git Advance**
     - Git Branching Strategies
       - Git Workflows
       - Git Conflicts - Solution
