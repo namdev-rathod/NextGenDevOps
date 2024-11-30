@@ -51,20 +51,19 @@ This course builds a strong foundation for beginners while offering advanced ins
    - Understanding of **Operating Systems** (especially Linux).  
    - Familiarity with **networking concepts**: IP, DNS, HTTP/HTTPS, firewalls.  
    - Basics of **virtualization** and **cloud computing**.  
+   - Understanding of **SDLC** (Software Development Life Cycle).
 
-2. **Cloud and Virtualization Basics**  
-   - Overview of **Public Cloud Platforms & Basics of Virtualization** 
+2. **Soft Skills**  
+   - **Collaboration** in a **multi-level team environment**.  
+   - Strong **problem-solving** and **communication** abilities.  
+   - **Patience** and adaptability to work under pressure and deadlines.  
+   - **Analytics** to proactively resolve issues and monitor system health.  
+   - **Decision-making skills** to balance speed, reliability, and cost.  
+   - **Client coordination** to manage expectations and deployments.  
 
-3. **Soft Skills**  
-   - Collaboration and understanding of **Multi-level Team Environment**.  
-   - Problem-solving and communication.
-   - Analytics
-   - Patience & Ability to work under pressure or tight deadline work.
-   - Decision making skills  
-   - Client co-ordination
-
-These prerequisites will help you build a strong foundation before diving into advanced DevOps tools and practices. 🚀  
-
+3. **Adaptability and Continuous Learning**  
+   - **Patience** to deal with challenges and learn from failure.  
+   - **Willingness to learn new tools** and technologies regularly as DevOps evolves.  
 ---
 
 ### **Course Modules** 📖  
