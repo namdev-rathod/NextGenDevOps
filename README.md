@@ -171,19 +171,20 @@ This course builds a strong foundation for beginners while offering advanced ins
       - User Management For Repo
 
 #### **Module 4: Amazon Web Services** ☁️ 
-#### 0. **AWS Overview** ☁️
+#### 1. **AWS Overview** ☁️
   - Free Tier AWS Account
   - AWS Console Overview
   - AWS CLI Utilities
 
-#### 1. **Compute Services**
+#### 2. **Compute Services**
      
    - **Amazon EC2 (Elastic Compute Cloud)** 🖥️  
      - Virtual servers in the cloud.  
      - Scalable compute capacity.  
      - Key concepts: Instances, AMIs, Elastic IPs. 
      - EBS Volume Management 📂
-     - Load Balancers 
+     - Load Balancers
+     - Auto Scaling 
 
    - **AWS Lambda** 🚀  
      - Serverless compute service.  
@@ -195,30 +196,30 @@ This course builds a strong foundation for beginners while offering advanced ins
      - Creating and deploying RESTful APIs.
      - Integrating APIs with AWS Lambda and other AWS services.  
   
-#### 2. **Storage Services**
+#### 3. **Storage Services**
    - **Amazon S3 (Simple Storage Service)** 📦  
      - Scalable object storage for any type of data.  
-     - Use cases: Backups, hosting static websites.  
+     - Use cases: Backups, hosting static websites.
+     - S3 Bucket Lifecycle  
 
-#### 3. **Networking Services**
+#### 4. **Networking Services**
    - **Amazon VPC (Virtual Private Cloud)** 🌐  
      - Isolated network in AWS.  
      - Components: Subnets, Route Tables, Gateways, Security Group vs NACL. 
      - VPC Peering
      - Nat Gateway 
 
-#### 4. **Database Services**
+#### 5. **Database Services**
    - **Amazon RDS (Relational Database Service)** 🗃️  
      - Managed relational database service (MySQL, PostgreSQL, etc.).  
      - Create and Management
      - Backup and Restore
-     - Migration
 
    - **DynamoDB** ⚡  
      - NoSQL database with high performance.
      - Create and Management  
 
-#### 5. **IAM (Identity and Access Management)** 🔒  
+#### 6. **IAM (Identity and Access Management)** 🔒  
    - **What is IAM?**  
      - Manage access to AWS services securely. 
      - Create and Manage IAM User, Role.
@@ -227,7 +228,7 @@ This course builds a strong foundation for beginners while offering advanced ins
      - Users, Groups, Roles, Policies.  
      - Permission Boundary.  
 
-#### 6. **Monitoring and Logging**
+#### 7. **Monitoring and Logging**
    - **Amazon CloudWatch** 🖥️  
      - Monitor applications and services.  
      - Set up alarms and metrics.
@@ -236,44 +237,41 @@ This course builds a strong foundation for beginners while offering advanced ins
    - **AWS CloudTrail** 📜  
      - Logs API calls made to AWS services.  
 
-#### 7. **Infrastructure as Code (IaC)**  
+#### 8. **Infrastructure as Code (IaC)**  
    - **AWS CloudFormation** 🛠️  
      - Define and provision AWS resources using code.  
    - **AWS CDK (Cloud Development Kit)** 💻  
      - Write infrastructure in modern programming languages (TypeScript, Python). 
 
-#### 7. **Containers and Orchestration**
+#### 9. **Containers and Orchestration**
 - Overview of Container 
-    - Docker basics and containerization.
+     - Docker basics and containerization.
      - Orchestrating containers with Amazon ECS and EKS.
+     - Create ECS and EKS Cluster
+     - Create & Manage ECR
 
 ---
 
+#### **Module 5: Containers & Orchestration** 🐳  
+- **Containers Basics**  
+  - Understanding Docker and containerization 🛳️.  
+  - Writing Dockerfiles⚙️.  
+  - Deploy application on docker container
+- **Container Orchestration**  
+  - Kubernetes (K8s) fundamentals 🎛️.  
+  - Key components: Pods, Services, Deployments, Ingress 🛠️.  
+  - Advanced topics: Helm charts, Kubernetes dashboards 🚀.  
+  - Hands-on: Deploying a microservices app on a Kubernetes cluster 🌐.  
 
+---
 
-# Project Management 
-# SRE
-
-
-### Advance DevOps 
-
-1. End to End CICD Pipeline
-2. Pipeline Stages 
-
-
-
-
-
-
-
-
-#### **Module 3: CI/CD Pipelines** 🛠️  
+#### **Module 6: CI/CD Pipelines** 🛠️  
 - **Understanding CI/CD**  
   - The importance of Continuous Integration, Delivery, and Deployment 🔄.  
   - Key CI/CD tools: Jenkins, GitLab CI/CD and GitHub Actions ⚙️.  
 - **Building Pipelines**  
   - Hands-on: Setting up pipelines for Node.js, Java, or Python applications 💻.  
-  - Advanced pipeline features: Parallel builds, caching, and artifact management 🚀.  
+  - Advanced pipeline features: Parallel builds and artifact management 🚀.  
 - **Deployment Strategies**  
   - Blue/Green deployments 🌍🟢.  
   - Canary releases 🐤.  
@@ -281,7 +279,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 3: Infrastructure as Code (IaC)** 🏗️  
+#### **Module 7: Infrastructure as Code (IaC)** 🏗️  
 - **Introduction to IaC**  
   - What is IaC? Benefits and use cases 📜.  
   - IaC tools overview: Terraform, CloudFormation, CDK ⚙️.  
@@ -294,19 +292,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 4: Containers & Orchestration** 🐳  
-- **Containers Basics**  
-  - Understanding Docker and containerization 🛳️.  
-  - Writing Dockerfiles and managing Docker Compose ⚙️.  
-- **Container Orchestration**  
-  - Kubernetes (K8s) fundamentals 🎛️.  
-  - Key components: Pods, Services, Deployments, StatefulSets 🛠️.  
-  - Advanced topics: Helm charts, Kubernetes operators 🚀.  
-  - Hands-on: Deploying a microservices app on a Kubernetes cluster 🌐.  
-
----
-
-#### **Module 5: GitOps & DevSecOps** 🔐  
+#### **Module 8: GitOps & DevSecOps** 🔐  
 - **GitOps: Infrastructure as Code through Git**  
   - Principles of GitOps and its significance 💡.  
   - Tools: FluxCD and ArgoCD.  
@@ -318,7 +304,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 6: SRE Practices** 🛡️  
+#### **Module 9: SRE Practices** 🛡️  
 - **SRE Fundamentals**  
   - Defining SLAs, SLOs, and SLIs 📏.  
   - Error budgets and incident response 🚨.  
@@ -331,51 +317,10 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 ---
 
-#### **Module 7: Troubleshooting & Microservices** 🔧  
-- **Advanced Troubleshooting**  
-  - Common issues in CI/CD, containers, and Kubernetes 🕵️‍♂️.  
-  - Debugging tools: kubectl, Docker CLI, log aggregators 🧰.  
-- **Microservices Architecture**  
-  - Building resilient microservices with APIs 🏗️.  
-  - Service mesh (Istio/Linkerd) for advanced use cases 🔀.  
-  - Hands-on: Deploying and scaling microservices in Kubernetes 🌐.  
-
----
-
-### **Course Outcomes** 🎓  
-- Implement end-to-end DevOps and SRE workflows 🏁.  
-- Master modern tools like Kubernetes, Terraform, and CI/CD platforms ⚡.  
-- Deploy microservices with reliability and scalability 🔄.  
-- Build secure pipelines with GitOps and DevSecOps 🔒.  
-
----
+#### **Module 10: Project Management** 🛡️
+  - Jira Workflows
+  - Confluence documentation
+  - Sprint Planning
+  
 
 **This is your path to mastering DevOps and SRE** 🚀🌟!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
