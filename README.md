@@ -170,12 +170,12 @@ This course builds a strong foundation for beginners while offering advanced ins
       - Integrate In CICD Pipeline 
       - User Management For Repo
 
-#### **Module 2: AWS Core Services** ☁️ 
+#### **Module 4: Amazon Web Services** ☁️ 
 #### 0. **AWS Overview** ☁️
-- Overview of AWS Cloud
+  - Overview of AWS Cloud
     - Free Tier AWS Account
     - AWS Console Overview
-    - AWS CLI
+    - AWS CLI Utilities
 
 #### 1. **Compute Services**
      
