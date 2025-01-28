@@ -10,14 +10,14 @@ This course builds a strong foundation for beginners while offering advanced ins
 - **Total Duration**: 3 Months 📆  
 - **Batch Commitment**: (Theory + Hands-On + Projects) 
 - **Location**: Online 📍 
-- **Batch Start Date**:  1st December 2024 📅 
-- **Batch Time**: Sat-Sun (Morning 9 am to 11 am IST) ⏰
+- **Batch Start Date**:  15th Feb 2025 📅 
+- **Batch Time**: Sat-Sun ( Morning 7 am to 9 am IST) ⏰
 - **Language**: English 🗣
 - **Fees**: Online ₹10,000/- 💰
 
 ### **𝐅𝐨𝐫 𝐋𝐢𝐯𝐞 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠 & 𝐀𝐧𝐲 𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐧**: 
 
-📞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: +91 7276 1219 83
+📞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: +91 7276 12 1983
 
 📞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐂𝐡𝐚𝐭: [![Chat on WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-green?logo=whatsapp&logoColor=white)](https://wa.me/7276121983?text=I'm%20interested%20in%20DevOps%20training!)
 
