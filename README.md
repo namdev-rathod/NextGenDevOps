@@ -13,7 +13,7 @@ This course builds a strong foundation for beginners while offering advanced ins
 - **Batch Start Date**:  15th Feb 2025 📅 
 - **Batch Time**: Sat-Sun ( Morning 7 am to 9 am IST) ⏰
 - **Language**: English 🗣
-- **Fees**: Online ₹12,000/- 💰
+- **Fees**: Online ₹15,000/- 💰
 
 ### **𝐅𝐨𝐫 𝐋𝐢𝐯𝐞 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠 & 𝐀𝐧𝐲 𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐨𝐧 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐧**: 
 
