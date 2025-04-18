@@ -10,8 +10,8 @@ This course builds a strong foundation for beginners while offering advanced ins
 - **Total Duration**: 3 Months 📆  
 - **Batch Commitment**: (Theory + Hands-On + Projects) 
 - **Location**: Online 📍 
-- **Batch Start Date**:  15th Feb 2025 📅 
-- **Batch Time**: Sat-Sun ( Morning 7 am to 9 am IST) ⏰
+- **Batch Start Date**:  19th April 2025 📅 
+- **Batch Time**: Sat-Sun ( Morning 8 am to 10 am IST) ⏰
 - **Language**: English 🗣
 - **Fees**: Online ₹15,000/- 💰
 
