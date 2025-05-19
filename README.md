@@ -23,8 +23,6 @@ This course builds a strong foundation for beginners while offering advanced ins
 
 📺 𝐘𝐨𝐮𝐓𝐮𝐛𝐞: https://www.youtube.com/@namdev.devops
 
-📺 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐇𝐢𝐧𝐝𝐢: https://www.youtube.com/@devopswithnamdev
-
 📌 Enroll Today and Start Building Your Future in DevOps!
 
 ⏳ 𝐋𝐢𝐦𝐢𝐭𝐞𝐝 𝐒𝐞𝐚𝐭𝐬 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞! 
