@@ -1,4 +1,4 @@
-# 🚀 DevOps Mastery - Batch 8 (2025–2026)
+# 🚀 DevOps Mastery - Batch 8
 
 > 🌐 A Complete Industry-Driven DevOps Program  
 > 🔧 Covers: DevOps | DevSecOps | SRE | Cloud | IaC | FinOps | AIOps  
@@ -17,6 +17,7 @@
   - ₹14,000/- (In Two Installments)  
 - 🗣️ **Language**: English  
 - 📲 **Registration**: [WhatsApp - 7276 12 1983](https://wa.me/917276121983)
+- 📺 **Subscribe For More Videos**: [youtube.com/@namdev.devops](https://www.youtube.com/@namdev.devops)
 
 ---
 
