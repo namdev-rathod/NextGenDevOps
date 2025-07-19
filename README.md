@@ -94,13 +94,14 @@
 ### ✅ Module 17: DevOps Live Projects
 - CI/CD → Docker → EKS → Terraform → Prometheus → Secure Pipeline
 - Serverless app with GitHub Actions, Lambda, RDS
+- More Relevent Projects
 
 ### ✅ Module 18: FinOps
 - Cloud cost optimization strategies
 - Billing dashboard, budgets, RI/SP planning
 
 ### ✅ Module 19: Interview Preparation
-- 150+ real-time Q&As
+- 500+ real-time Q&As
 - Mock interviews, resume building, LinkedIn branding
 
 ### ✅ Module 20: Troubleshooting Labs
