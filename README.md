@@ -83,6 +83,7 @@
 ### ✅ Module 11: Container Orchestrations
 - ECS vs Fargate vs EKS
 - Cluster setup, Ingress, Service Discovery
+- Service Mesh (Istio, Linkerd, Envoy)
 
 ### ✅ Module 12: Infrastructure Management
 - Terraform: state, modules, backends
