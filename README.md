@@ -6,6 +6,20 @@
 
 ---
 
+## 🗓️ Batch-8 Details
+
+- 📅 **Start Date**: 26th July 2025  
+- 🕗 **Time**: 8 PM to 10 PM IST  
+- 📆 **Mode**: Online Weekend (Sat & Sun, 2 hrs/day)  
+- ⏳ **Duration**: 3 Months  
+- 💰 **Fees**:
+  - ₹12,000/- (One-Time Payment)  
+  - ₹14,000/- (In Two Installments)  
+- 🗣️ **Language**: English  
+- 📲 **Registration**: [WhatsApp - 7276 12 1983](https://wa.me/917276121983)
+
+---
+
 ## 🧱 Tech Stack Overview
 
 | Category             | Tools & Platforms                                 |
