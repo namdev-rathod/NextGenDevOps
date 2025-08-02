@@ -1,99 +1,92 @@
-## 🚀 **Day-2: DevOps Networking Basics**
+# 🚀 DevOps Day-2: Networking Basics
+
+A comprehensive beginner-friendly guide to understanding core networking concepts essential for DevOps Engineers.
 
 ---
 
-### 🌐 **1. IP Address**
+## 🌐 1. What is an IP Address?
 
-#### 🔹 What is it?
+An **IP Address (Internet Protocol Address)** uniquely identifies a device on a network.
 
-An **IP address** (Internet Protocol address) identifies a device on a network.
+### 🔹 Types of IPs:
 
-#### 🔹 Types:
+* **Private IP:** Used in internal/local networks (e.g., `192.168.0.0/16`, `10.0.0.0/8`, `172.16.0.0/12`)
+* **Public IP:** Globally routable IP for accessing over the internet (e.g., `8.8.8.8`)
 
-* **Private IP:** Used within internal networks (e.g., `192.168.1.1`)
-* **Public IP:** Used on the internet (e.g., `8.8.8.8`)
-
-#### 🔹 Example:
+### 🔹 Check Your IP:
 
 ```bash
-ip a                   # Show local IP
-curl ifconfig.me       # Show public IP
+ip a                  # Show local (private) IP
+curl ifconfig.me      # Show public IP
 ```
 
 ---
 
-### 🧱 **2. Networking in Linux**
+## 🧱 2. Linux Networking Basics
 
-#### 🔹 Purpose:
+Linux provides powerful tools to interact with networking components.
 
-Manage how your system connects to other systems and the internet.
+### 🔹 Common Commands:
 
-#### 🔹 Useful Commands:
-
-| Command                 | Description                    |
-| ----------------------- | ------------------------------ |
-| `ip a`                  | View IP addresses & interfaces |
-| `ip r`                  | View routing table             |
-| `ping google.com`       | Check connectivity             |
-| `traceroute google.com` | Trace the path packets take    |
-| `netstat -tulnp`        | View open ports & services     |
-| `ss -tuln`              | Similar to netstat (modern)    |
-| `nslookup google.com`   | Check DNS resolution           |
+| Command             | Description                          |
+| ------------------- | ------------------------------------ |
+| `ip a`              | Show all IPs and interfaces          |
+| `ip r`              | View routing table                   |
+| `ping <host>`       | Test network connectivity            |
+| `traceroute <host>` | Trace route to destination           |
+| `netstat -tulnp`    | Show open ports (legacy)             |
+| `ss -tuln`          | Show open ports (modern replacement) |
+| `nslookup <domain>` | DNS query                            |
+| `dig <domain>`      | Advanced DNS lookup                  |
 
 ---
 
-### 🌐 **3. DNS (Domain Name System)**
+## 🌐 3. DNS - Domain Name System
 
-#### 🔹 What is it?
+DNS translates human-readable domain names (e.g., `google.com`) into machine-readable IP addresses.
 
-DNS translates **domain names** (e.g., `google.com`) to **IP addresses** (e.g., `142.250.194.14`).
-
-#### 🔹 Example:
+### 🔹 Test DNS:
 
 ```bash
-nslookup dev.to
+nslookup google.com
 dig google.com
-cat /etc/resolv.conf     # Check system's DNS servers
+cat /etc/resolv.conf  # DNS resolver config
 ```
 
 ---
 
-### 🔥 **4. Firewall**
+## 🔥 4. Firewall
 
-#### 🔹 What is it?
+A **firewall** filters inbound and outbound traffic based on defined rules.
 
-A **firewall** controls **inbound and outbound** traffic to/from your system or server based on rules.
+### 🔹 Common Ports:
 
-#### 🔹 Example:
+| Port | Protocol |
+| ---- | -------- |
+| 22   | SSH      |
+| 80   | HTTP     |
+| 443  | HTTPS    |
+
+### 🔹 Check Firewall:
 
 ```bash
-sudo ufw status           # On Ubuntu
-sudo firewall-cmd --state # On RHEL/CentOS
+sudo ufw status           # Ubuntu
+sudo firewall-cmd --state # RHEL/CentOS
 ```
-
-#### 🔹 Common Ports:
-
-| Port | Service |
-| ---- | ------- |
-| 22   | SSH     |
-| 80   | HTTP    |
-| 443  | HTTPS   |
 
 ---
 
-### 🔁 **5. NAT (Network Address Translation)**
+## 🔁 5. NAT - Network Address Translation
 
-#### 🔹 What is it?
+NAT allows multiple devices with private IPs to access the internet using a single public IP.
 
-**NAT** allows **multiple private IPs** to share a **single public IP** to access the internet.
+### 🔹 Usage:
 
-#### 🔹 Where used?
+* Home/Office Routers
+* AWS NAT Gateway
+* Docker bridge networks
 
-* Home routers
-* Docker containers
-* AWS NAT Gateways
-
-#### 🔹 Example in Docker:
+### 🔹 Docker NAT Example:
 
 ```bash
 docker run -d nginx
@@ -103,53 +96,101 @@ curl http://localhost
 
 ---
 
-### 🧰 **6. Proxy**
+## 🧰 6. Proxy Servers
 
-#### 🔹 What is it?
+A **proxy** is an intermediary server between a client and another server.
 
-A **proxy server** acts as an intermediary between a client and the internet.
+### 🔹 Types:
 
-#### 🔹 Types:
+* **Forward Proxy:** Controls outbound traffic (corporate firewalls)
+* **Reverse Proxy:** Controls inbound traffic and routes to backend services (e.g., NGINX, HAProxy)
 
-* **Forward Proxy:** Controls outgoing traffic (e.g., corporate firewall)
-* **Reverse Proxy:** Routes incoming requests to backend services (e.g., Nginx, HAProxy)
-
-#### 🔹 Example:
+### 🔹 Set Proxy (Temp):
 
 ```bash
-# Set proxy temporarily
 export http_proxy=http://proxy.example.com:8080
 export https_proxy=https://proxy.example.com:8080
 ```
 
 ---
 
-### 🧪 **7. Linux Networking Commands – Summary**
+## 📘 7. OSI Model - 7 Layer Network Stack
 
-| Command             | Use                            |
-| ------------------- | ------------------------------ |
-| `ip a`              | Show IP address and interfaces |
-| `ip r`              | Show routing info              |
-| `ping <host>`       | Check if host is reachable     |
-| `traceroute <host>` | Trace route to a host          |
-| `nslookup <domain>` | DNS query                      |
-| `dig <domain>`      | Advanced DNS query             |
-| `netstat -tulnp`    | Show network connections       |
-| `ss -tuln`          | Show listening sockets         |
-| `curl <url>`        | Test HTTP requests             |
-| `wget <url>`        | Download files via HTTP/HTTPS  |
+The **OSI (Open Systems Interconnection)** model is a conceptual framework used to understand network interactions in 7 layers:
+
+| Layer | Name         | Description                          | Examples        |
+| ----- | ------------ | ------------------------------------ | --------------- |
+| 7     | Application  | User interface and app communication | HTTP, FTP, DNS  |
+| 6     | Presentation | Data translation, encryption         | SSL, JPEG, MPEG |
+| 5     | Session      | Connection establishment & control   | NetBIOS, RPC    |
+| 4     | Transport    | Reliable delivery                    | TCP, UDP        |
+| 3     | Network      | Routing of packets                   | IP, ICMP        |
+| 2     | Data Link    | MAC addressing and switching         | Ethernet, PPP   |
+| 1     | Physical     | Physical medium for transmission     | Cables, Hubs    |
+
+---
+
+## 📚 8. Private IP Ranges
+
+| Range                         | CIDR Notation    | IP Count       |
+| ----------------------------- | ---------------- | -------------- |
+| 10.0.0.0 – 10.255.255.255     | `10.0.0.0/8`     | \~16.7 million |
+| 172.16.0.0 – 172.31.255.255   | `172.16.0.0/12`  | \~1 million    |
+| 192.168.0.0 – 192.168.255.255 | `192.168.0.0/16` | \~65,000       |
 
 ---
 
-### 📌 Summary Table
+## 🛠️ 9. Useful Linux Tools
 
-| Concept          | Description                            | Example                          |
-| ---------------- | -------------------------------------- | -------------------------------- |
-| IP Address       | Unique device ID on network            | `ip a`                           |
-| DNS              | Translates domain to IP                | `nslookup google.com`            |
-| Firewall         | Controls traffic rules                 | `ufw status`                     |
-| NAT              | Private → Public IP mapping            | Docker container internet access |
-| Proxy            | Intermediary for network traffic       | `export http_proxy=...`          |
-| Linux Networking | CLI tools to manage/check connectivity | `ping`, `traceroute`, `curl`     |
+| Tool             | Use Case                       |
+| ---------------- | ------------------------------ |
+| `ping`           | Test reachability              |
+| `curl`           | Test web/server endpoints      |
+| `wget`           | Download files from internet   |
+| `telnet`         | Test port connectivity         |
+| `netstat` / `ss` | Check listening ports/services |
+| `ip`             | IP/routing interface info      |
+| `traceroute`     | Show network hops              |
+| `tcpdump`        | Packet capture tool            |
 
 ---
+
+## 🧪 10. Testing Examples
+
+```bash
+ping google.com                    # Connectivity test
+traceroute google.com              # Path tracing
+curl -I https://www.google.com     # HTTP headers
+nslookup dev.to                    # DNS resolution
+```
+
+---
+
+## 📌 Summary Table
+
+| Concept          | Description                            | Example                    |
+| ---------------- | -------------------------------------- | -------------------------- |
+| IP Address       | Unique device ID on network            | `ip a`                     |
+| DNS              | Resolves domain to IP                  | `nslookup google.com`      |
+| Firewall         | Controls traffic rules                 | `ufw status`               |
+| NAT              | Private → Public IP mapping            | Used in Docker, AWS NAT GW |
+| Proxy            | Mediates traffic between client/server | `export http_proxy=...`    |
+| OSI Model        | 7-layer network model                  | Transport = TCP, UDP       |
+| Linux Networking | CLI tools for network troubleshooting  | `ping`, `ss`, `traceroute` |
+
+---
+
+## 📦 Ideal for:
+
+* Beginners exploring DevOps
+* Practitioners preparing for interviews
+* Anyone interested in understanding core networking
+
+---
+
+## ✅ Next Steps
+
+* Include sample network setup using Docker or AWS VPC
+* Automate firewall or DNS checks with bash
+
+Let me know if you’d like a banner, diagram, or sample network lab setup next!
