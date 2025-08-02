@@ -2,6 +2,8 @@
 
 A comprehensive beginner-friendly guide to understanding core networking concepts essential for DevOps Engineers.
 
+<img width="1536" height="1024" alt="vpc" src="https://github.com/user-attachments/assets/b9cf5e0b-3975-4d3e-9963-ceed2ce68615" />
+
 ---
 
 ## 🌐 1. What is an IP Address?
@@ -179,18 +181,3 @@ nslookup dev.to                    # DNS resolution
 | Linux Networking | CLI tools for network troubleshooting  | `ping`, `ss`, `traceroute` |
 
 ---
-
-## 📦 Ideal for:
-
-* Beginners exploring DevOps
-* Practitioners preparing for interviews
-* Anyone interested in understanding core networking
-
----
-
-## ✅ Next Steps
-
-* Include sample network setup using Docker or AWS VPC
-* Automate firewall or DNS checks with bash
-
-Let me know if you’d like a banner, diagram, or sample network lab setup next!
