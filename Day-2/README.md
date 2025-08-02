@@ -132,6 +132,13 @@ The **OSI (Open Systems Interconnection)** model is a conceptual framework used 
 
 ---
 
+## OSI Layer
+
+<img width="1024" height="1024" alt="osi" src="https://github.com/user-attachments/assets/4c0073d9-c39b-4d2c-b968-3a6e1f066b0c" />
+
+
+---
+
 ## 📚 8. Private IP Ranges
 
 | Range                         | CIDR Notation    | IP Count       |
