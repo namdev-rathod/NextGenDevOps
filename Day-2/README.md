@@ -116,26 +116,42 @@ export https_proxy=https://proxy.example.com:8080
 
 ---
 
-## 📘 7. OSI Model - 7 Layer Network Stack
+## 🧱 OSI Model – 7 Networking Layers
 
-The **OSI (Open Systems Interconnection)** model is a conceptual framework used to understand network interactions in 7 layers:
+The **OSI (Open Systems Interconnection)** model describes how data moves through a network, broken into 7 layers. Each layer has its specific function and interacts only with the layers directly above and below it.
 
-| Layer | Name         | Description                          | Examples        |
-| ----- | ------------ | ------------------------------------ | --------------- |
-| 7     | Application  | User interface and app communication | HTTP, FTP, DNS  |
-| 6     | Presentation | Data translation, encryption         | SSL, JPEG, MPEG |
-| 5     | Session      | Connection establishment & control   | NetBIOS, RPC    |
-| 4     | Transport    | Reliable delivery                    | TCP, UDP        |
-| 3     | Network      | Routing of packets                   | IP, ICMP        |
-| 2     | Data Link    | MAC addressing and switching         | Ethernet, PPP   |
-| 1     | Physical     | Physical medium for transmission     | Cables, Hubs    |
+### 📊 OSI Layer Table
+
+| Layer | Layer Name         | Description                                                                                                         | Examples                                    |
+| ----- | ------------------ | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| 7     | Application Layer  | Interfaces with end-user applications; responsible for network services to applications.                            | HTTP, FTP, SMTP, DNS                        |
+| 6     | Presentation Layer | Translates, encrypts, or compresses data from the application layer.                                                | SSL/TLS, JPEG, MPEG                         |
+| 5     | Session Layer      | Manages sessions or connections between applications.                                                               | NetBIOS, RPC                                |
+| 4     | Transport Layer    | Provides reliable data transfer via segmentation, error detection, and flow control.                                | TCP, UDP                                    |
+| 3     | Network Layer      | Routes packets across networks and handles logical addressing.                                                      | IP (IPv4/IPv6), ICMP                        |
+| 2     | Data Link Layer    | Transfers data between devices on the same network; handles MAC addressing and error correction at the frame level. | Ethernet, PPP, Switch                       |
+| 1     | Physical Layer     | Transmits raw bit stream over the physical medium.                                                                  | Cables, Hubs, Network Interface Cards (NIC) |
 
 ---
 
-## OSI Layer
+### 📘 Easy-to-Remember Mnemonic
 
-<img width="1024" height="1024" alt="osi" src="https://github.com/user-attachments/assets/4c0073d9-c39b-4d2c-b968-3a6e1f066b0c" />
+To recall the layers in order:
 
+**A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing
+→ (Application, Presentation, Session, Transport, Network, Data Link, Physical)
+
+---
+
+### 🛠️ Use in DevOps
+
+| OSI Layer         | Relevance in DevOps                                                 |
+| ----------------- | ------------------------------------------------------------------- |
+| Application Layer | Web apps, APIs, browser interactions                                |
+| Transport Layer   | TCP/UDP port management, firewall rules                             |
+| Network Layer     | IP routing, VPCs, NAT Gateways, VPN setups                          |
+| Data Link Layer   | Less common in DevOps, relevant in debugging packet delivery issues |
+| Physical Layer    | Not usually managed by DevOps (handled by cloud provider)           |
 
 ---
 
