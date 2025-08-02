@@ -1,4 +1,4 @@
-# 🧠 DevOps Batch-8: Linux Training Curriculum
+# 🧠 DevOps Batch-8: Linux For DevOps
 
 ---
 
@@ -222,5 +222,96 @@ print("Hostname:", os.uname().nodename)
 * `uptime`: Load average
 * `netstat -tuln`, `ss -tuln`: Listening ports
 * `ps aux --sort=-%mem`: High memory-consuming processes
+
+---
+
+# 🌐 Top 10 Free Linux & Kubernetes Playground Websites
+
+This curated list provides **free and browser-based playgrounds** to practice **Linux commands**, **Kubernetes**, **Docker**, **Git**, and more — no installation or cloud subscription needed.
+
+---
+
+## 🚀 1. [KillerCoda](https://killercoda.com/)
+- **Focus:** Linux, Kubernetes, Docker, Git, Helm
+- **Features:**
+  - Real interactive terminal
+  - Sandbox + guided scenarios
+  - No signup required for many labs
+- **Best For:** Kubernetes hands-on practice, DevOps learning
+
+---
+
+## 📘 2. [Katacoda](https://katacoda.com/)
+- **Focus:** Kubernetes, Docker, Linux, Helm
+- **Features:** Step-by-step interactive scenarios
+- **Note:** Now part of O’Reilly learning platform
+
+---
+
+## 🧪 3. [Play with Kubernetes](https://labs.play-with-k8s.com/)
+- **Focus:** Real K8s multi-node cluster
+- **Features:** Simulate clusters, run real-time K8s commands
+- **Session Limit:** 4 hours
+
+---
+
+## 🐳 4. [Play with Docker](https://labs.play-with-docker.com/)
+- **Focus:** Docker CLI, Swarm
+- **Features:** Instant containers, multi-host support
+- **Bonus:** Linux Alpine base system
+
+---
+
+## 👨‍💻 5. [KodeKloud Labs](https://kodekloud.com/labs/)
+- **Focus:** Linux, Kubernetes, Ansible, Terraform, Git
+- **Features:** Scenario-based hands-on labs
+- **Free Tier:** Limited but sufficient for beginners
+
+---
+
+## 📦 6. [Kubernetes Bootcamp (Official)](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- **Focus:** Kubernetes basics
+- **Features:** Built-in interactive terminal and tutorials
+
+---
+
+## 🧰 7. [Instruqt](https://instruqt.com/)
+- **Focus:** Linux, DevOps, Kubernetes, Terraform
+- **Features:** Real browser-based environments, community tracks
+
+---
+
+## 🖥️ 8. [TutorialsPoint Terminal](https://www.tutorialspoint.com/unix_terminal_online.php)
+- **Focus:** Linux/Unix CLI
+- **Features:** Simple browser shell to test Linux commands
+
+---
+
+## ☁️ 9. [Google Cloud Shell](https://shell.cloud.google.com/)
+- **Focus:** Linux terminal with GCP tools
+- **Features:** 5 GB persistent disk, preinstalled tools (gcloud, kubectl, Python)
+
+---
+
+## 🧑‍🔧 10. [GitPod](https://gitpod.io/)
+- **Focus:** Linux shell, DevOps workflows, Kubernetes dev
+- **Features:** Full dev environments, VS Code in browser
+
+---
+
+## ✅ Bonus
+- [AWS CloudShell](https://aws.amazon.com/cloudshell/)
+- [Replit](https://replit.com/)
+- [Glitch](https://glitch.com/)
+- [DevOps Playground](https://www.devopsplayground.com/)
+
+---
+
+## 🛠️ Ideal For:
+- Practicing Linux & Kubernetes CLI
+- Learning DevOps tools hands-on
+- Preparing for certifications (CKA, CKAD, etc.)
+
+> 💬 Feel free to fork this list and contribute more platforms!
 
 ---
