@@ -1,4 +1,50 @@
-# 🧠 DevOps Batch-8: Linux For DevOps
+# 🧠 📘 DevOps Batch-8: Linux For DevOps
+
+---
+
+This repository contains the complete Linux training syllabus for **DevOps Batch-8**, covering foundational to advanced topics relevant for DevOps engineers.
+
+---
+
+## 📚 Table of Contents
+
+1. **Introduction to Linux**  
+2. **Importance of Linux in DevOps**  
+3. **Key Benefits of Using Linux**  
+4. **Comparison: Windows vs. Linux**  
+5. **Networking Concepts in Linux**  
+6. **Understanding the Linux Shell**  
+7. **Operating System Variants: Windows vs. Linux Distributions**  
+8. **Setting Up EC2 Instances: Windows and Linux on AWS**  
+9. **Practicing Without EC2: Free Online Linux Playgrounds**  
+10. **Connection Methods: Windows vs. Linux Environments**  
+11. **Authentication Methods: SSH Keys vs. Password-Based Access**  
+12. **Essential Linux Commands for DevOps**  
+13. **Terminal Utilities and Tools in Linux**  
+14. **User and Group Management in Linux**  
+15. **Linux File Permissions and Ownership**  
+16. **Special File Permissions: SUID, SGID, and Sticky Bit**  
+17. **Package Installation and Management**  
+18. **Service Management Using systemd**  
+19. **Introduction to Bash Scripting**  
+20. **Introduction to Python Scripting for Automation**  
+21. **Troubleshooting Techniques: Disk Space, Packages, and Services**  
+22. **Common Monitoring Commands in Linux**
+
+---
+
+## 🚀 Objective
+
+By the end of this training, participants will be able to:
+- Work confidently in Linux-based environments.
+- Manage services, users, and system resources.
+- Automate tasks using Bash and Python scripting.
+- Troubleshoot real-world issues effectively.
+- Prepare for DevOps tools and cloud-based infrastructure.
+
+---
+
+> 🛠️ Feel free to fork this repository, contribute, and enhance the learning experience for the DevOps community.
 
 ---
 
