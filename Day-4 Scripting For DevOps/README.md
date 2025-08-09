@@ -334,6 +334,181 @@ print("✅ Alert email sent.")
 | **Portability** | Unix/Linux native                  | Cross-platform (Windows/Linux/Mac)  |
 
 
+---
+
+# **1. Real-Time Bash Scripting Examples**
+
+---
+
+## **Bash Example 1 – Automated Log Rotation**
+
+**Purpose:** Rotate and compress old logs to save disk space.
+
+```bash
+#!/bin/bash
+log_dir="/var/log/myapp"
+backup_dir="/var/backups/myapp_logs"
+mkdir -p "$backup_dir"
+
+find "$log_dir" -type f -name "*.log" -mtime +7 -exec tar -czf "$backup_dir/logs_$(date +%F).tar.gz" {} +
+find "$log_dir" -type f -name "*.log" -mtime +7 -delete
+
+echo "Old logs archived and deleted."
+```
+
+**Use Case:** Run via cron to keep production log files small.
+
+---
+
+## **Bash Example 2 – Service Health Check**
+
+**Purpose:** Check if a service is running and restart if stopped.
+
+```bash
+#!/bin/bash
+service_name="nginx"
+
+if ! systemctl is-active --quiet $service_name; then
+    echo "[$(date)] $service_name is DOWN. Restarting..."
+    systemctl start $service_name
+else
+    echo "[$(date)] $service_name is UP."
+fi
+```
+
+**Use Case:** Keeps critical services like `nginx`, `mysql`, etc. always running.
+
+---
+
+## **Bash Example 3 – Daily Database Backup**
+
+**Purpose:** Backup MySQL database daily.
+
+```bash
+#!/bin/bash
+backup_dir="/var/backups/mysql"
+mkdir -p "$backup_dir"
+db_name="mydb"
+db_user="root"
+db_pass="password"
+
+mysqldump -u $db_user -p$db_pass $db_name > "$backup_dir/${db_name}_$(date +%F).sql"
+gzip "$backup_dir/${db_name}_$(date +%F).sql"
+
+echo "Database backup completed: $backup_dir/${db_name}_$(date +%F).sql.gz"
+```
+
+**Use Case:** Used in production to automate DB backups.
+
+---
+
+# **2. Real-Time Python Scripting Examples**
+
+---
+
+## **Python Example 1 – Server Resource Monitoring**
+
+**Purpose:** Monitor CPU, RAM, and Disk usage; send alerts when thresholds exceed.
+
+```python
+#!/usr/bin/python3
+import psutil
+import smtplib
+
+# Thresholds
+CPU_THRESHOLD = 80
+MEM_THRESHOLD = 80
+
+# Check CPU
+cpu_usage = psutil.cpu_percent(interval=1)
+mem_usage = psutil.virtual_memory().percent
+
+if cpu_usage > CPU_THRESHOLD or mem_usage > MEM_THRESHOLD:
+    alert_message = f"ALERT! CPU: {cpu_usage}% | Memory: {mem_usage}%"
+    print(alert_message)
+
+    # Email alert (example)
+    server = smtplib.SMTP('smtp.uxito.net', 587)
+    server.starttls()
+    server.login("user@uxito.net", "password")
+    server.sendmail("user@uxito.net", "admin@uxito.net", alert_message)
+    server.quit()
+else:
+    print(f"CPU: {cpu_usage}% | Memory: {mem_usage}% - OK")
+```
+
+**Use Case:** Monitor production server health & alert admins.
+
+---
+
+## **Python Example 2 – API Data Fetch & Save**
+
+**Purpose:** Fetch GitHub user details via API and store in JSON file.
+
+```python
+#!/usr/bin/python3
+import requests
+import json
+
+username = "octocat"
+url = f"https://api.github.com/users/{username}"
+response = requests.get(url)
+
+if response.status_code == 200:
+    data = response.json()
+    with open(f"{username}_details.json", "w") as f:
+        json.dump(data, f, indent=4)
+    print(f"User data saved for {username}")
+else:
+    print(f"Failed to fetch data: {response.status_code}")
+```
+
+**Use Case:** Automate API integrations for reporting dashboards.
+
+---
+
+## **Python Example 3 – S3 File Upload**
+
+**Purpose:** Upload a local file to AWS S3 bucket.
+
+```python
+#!/usr/bin/python3
+import boto3
+
+s3 = boto3.client('s3')
+bucket_name = "my-backup-bucket"
+file_path = "/var/backups/mysql_backup.sql.gz"
+
+try:
+    s3.upload_file(file_path, bucket_name, "mysql_backup.sql.gz")
+    print("File uploaded successfully to S3.")
+except Exception as e:
+    print(f"Upload failed: {e}")
+```
+
+**Use Case:** Backup automation to cloud storage in DevOps pipelines.
+
+---
+
+## **How to Use Them Together (Bash + Python Hybrid Example)**
+
+* **Bash** → Runs system commands, handles scheduling, and triggers Python scripts.
+* **Python** → Handles advanced logic, data processing, API calls.
+
+**Example:**
+
+```bash
+#!/bin/bash
+# Run server monitoring (Python script)
+python3 /opt/scripts/server_monitor.py
+# If monitoring finds issues, it logs them, and this Bash script emails logs
+cat /var/log/server_monitor.log | mail -s "Server Alert" admin@uxito.net
+```
+
+---
+
+
+
 ## 📚 7. Best Reference Links
 
 🔹 [GeeksforGeeks - Shell Scripting](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/)
