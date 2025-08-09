@@ -6,8 +6,31 @@
 
 ## 1. What is Shell Scripting?
 
+Bash (Bourne Again SHell) is the default shell for most Linux distributions.
+Bash scripts are text files containing shell commands executed sequentially.
+
 Shell scripting is the process of writing a series of commands in a text file (called a *script*) that can be executed by a shell interpreter (like **Bash**).
 It automates repetitive tasks, simplifies complex operations, and is widely used in **system administration, application deployment, and DevOps workflows**.
+
+**Advantages:**
+
+Direct interaction with OS commands.
+
+Lightweight, no interpreter installation needed on Linux.
+
+Best suited for system administration tasks.
+
+**Structure of a Bash Script:**
+
+```bash
+#!/bin/bash     # Shebang line - interpreter
+# Comments
+variable="value" # Variables
+command          # Linux commands
+if condition; then
+    commands
+fi               # Control structures
+```
 
 ---
 
@@ -193,10 +216,15 @@ print("✅ Alert email sent.")
 ## 📚 7. Best Reference Links
 
 🔹 [GeeksforGeeks - Shell Scripting](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/)
+
 🔹 [TutorialsPoint - Bash Scripting](https://www.tutorialspoint.com/unix/shell_scripting.htm)
+
 🔹 [FreeCodeCamp - Bash Guide](https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/)
+
 🔹 [Python Official Documentation](https://docs.python.org/3/tutorial/)
+
 🔹 [AWS Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
 ---
+
 
