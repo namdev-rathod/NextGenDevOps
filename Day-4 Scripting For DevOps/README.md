@@ -342,7 +342,22 @@ print("✅ Alert email sent.")
 
 ## **Bash Example 1 – Automated Log Rotation**
 
-**Purpose:** Rotate and compress old logs to save disk space.
+**Description:**
+In production, log files grow daily (especially for web servers, APIs, and microservices). If not managed, they can fill up disk space and crash the system. This script archives old logs and deletes them after a set time.
+
+**Issue Details:**
+
+✅ Servers often crash when /var/log is full.
+
+✅ Logs become too large to open or process manually.
+
+✅ Manual cleanup is error-prone.
+
+**Use Case:**
+
+✅ Run daily via cron to keep logs manageable.
+
+✅ Used in web servers (Nginx, Apache) and application logs.
 
 ```bash
 #!/bin/bash
