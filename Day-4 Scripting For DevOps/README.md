@@ -4,9 +4,9 @@
 
 ---
 
-## 📖 1. What is Shell Scripting?
+## 1. What is Shell Scripting?
 
-Shell scripting is the process of writing a series of commands in a text file (called a *script*) that can be executed by a shell interpreter (like **Bash** 🐚).
+Shell scripting is the process of writing a series of commands in a text file (called a *script*) that can be executed by a shell interpreter (like **Bash**).
 It automates repetitive tasks, simplifies complex operations, and is widely used in **system administration, application deployment, and DevOps workflows**.
 
 ---
@@ -14,21 +14,26 @@ It automates repetitive tasks, simplifies complex operations, and is widely used
 ## 💡 2. Why We Use Shell Scripting & Its Benefits
 
 ✅ **Automation** – Eliminates repetitive manual tasks.
+
 ✅ **Efficiency** – Simplifies complex commands into single execution.
+
 ✅ **Integration** – Works with tools like `awk`, `sed`, `grep`, APIs, and databases.
+
 ✅ **Cross-Platform** – Runs on most UNIX/Linux distributions.
+
 ✅ **Cost & Time Savings** – Speeds up deployments and reduces human error.
+
 
 ---
 
-## 🐚 3. Introduction to Bash & Python Scripting
+## 3. Introduction to Bash & Python Scripting
 
 ### **Bash Scripting**
 
 Bash is a Unix shell and command language used for task automation directly on Linux/Unix environments.
 It’s lightweight, fast, and ideal for system-level operations.
 
-### **Python Scripting** 🐍
+### **Python Scripting** 
 
 Python is a versatile high-level language, widely used for **automation, data processing, API integrations**, and **DevOps tooling**.
 It’s known for its readability, large library ecosystem, and cross-platform compatibility.
@@ -48,13 +53,13 @@ It’s known for its readability, large library ecosystem, and cross-platform co
 
 ## 📌 5. Common Use Cases
 
-### **Bash Use Cases** 🐚
+### **Bash Use Cases**
 
 * System updates & health checks 🖥️
 * Log file monitoring & backups 📂
 * Automated deployments 🚀
 
-### **Python Use Cases** 🐍
+### **Python Use Cases**
 
 * API automation 🌐
 * Data extraction & transformation 📊
@@ -173,11 +178,11 @@ from email.mime.text import MIMEText
 
 msg = MIMEText("⚠️ High CPU usage detected on server.")
 msg["Subject"] = "Server Alert"
-msg["From"] = "admin@example.com"
-msg["To"] = "ops@example.com"
+msg["From"] = "admin@uxito.net"
+msg["To"] = "ops@uxito.net"
 
-with smtplib.SMTP("smtp.example.com") as server:
-    server.login("admin@example.com", "password")
+with smtplib.SMTP("smtp.uxito.net") as server:
+    server.login("admin@uxito.net", "password")
     server.sendmail(msg["From"], [msg["To"]], msg.as_string())
 
 print("✅ Alert email sent.")
