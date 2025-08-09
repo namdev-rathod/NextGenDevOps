@@ -14,11 +14,11 @@ It automates repetitive tasks, simplifies complex operations, and is widely used
 
 **Advantages:**
 
-Direct interaction with OS commands.
+✅ Direct interaction with OS commands.
 
-Lightweight, no interpreter installation needed on Linux.
+✅ Lightweight, no interpreter installation needed on Linux.
 
-Best suited for system administration tasks.
+✅ Best suited for system administration tasks.
 
 **Structure of a Bash Script:**
 
@@ -107,6 +107,51 @@ mkdir -p "$backup_dir"
 tar -cvzf "$backup_dir/backup_$(date +%Y%m%d_%H%M%S).tar.gz" "$source_dir"
 echo "✅ Backup completed successfully."
 ```
+
+**(A) Automated Backup Script**
+
+```bash
+#!/bin/bash
+backup_dir="/var/backups"
+source_dir="/var/www/html"
+mkdir -p "$backup_dir"
+
+echo "Starting backup..."
+tar -czf "$backup_dir/backup_$(date +%F_%H-%M-%S).tar.gz" "$source_dir"
+echo "Backup completed successfully."
+```
+
+**Use Case:** Schedule with cron to run daily.
+
+**(B) Log File Monitoring for Errors**
+
+```bash
+#!/bin/bash
+log_file="/var/log/syslog"
+error_count=$(grep -c "ERROR" "$log_file")
+
+if [ "$error_count" -gt 0 ]; then
+    echo "[$(date)] Errors found: $error_count" >> /var/log/error_monitor.log
+fi
+```
+
+**Use Case:** Detect and log errors in production systems.
+
+**(C) Disk Space Alert**
+
+```bash
+#!/bin/bash
+threshold=80
+df -h | awk 'NR>1 {print $5 " " $1}' | while read output; do
+    usage=$(echo $output | awk '{print $1}' | tr -d '%')
+    partition=$(echo $output | awk '{print $2}')
+    if [ $usage -ge $threshold ]; then
+        echo "Warning: $partition is $usage% full."
+    fi
+done
+```
+
+**Use Case:** Trigger alerts when disk space exceeds a threshold.
 
 ---
 
