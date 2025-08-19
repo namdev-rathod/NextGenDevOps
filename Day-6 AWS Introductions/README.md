@@ -8,8 +8,17 @@ No outdated tools – only the **most in-demand AWS technologies** with hands-on
 
 ## 📌 Course Roadmap
 
-### 1️⃣ AWS Fundamentals for DevOps
-- ☁️ AWS Global Infrastructure (Regions, AZs, Edge Locations)  
+### 1️⃣ Introduction to Cloud & AWS
+- ☁️ **What is Cloud Technologies**  
+- 🏢 **On-Prem vs Cloud Technologies**  
+- 🎯 **Benefits of Cloud**  
+- 🆓 **AWS Free Tier Account Setup**  
+- 🌍 **AWS Global Infrastructure (Regions, AZs, Edge Locations)**  
+- 💰 **AWS Budget Setup (Cost Control from Day 1)**  
+
+---
+
+### 2️⃣ AWS Fundamentals for DevOps
 - 🔑 IAM Identity Center (SSO) & Fine-grained Access Control  
 - 🗂 AWS Organizations & SCPs  
 - 🔒 Secrets Manager & Parameter Store  
@@ -17,7 +26,7 @@ No outdated tools – only the **most in-demand AWS technologies** with hands-on
 
 ---
 
-### 2️⃣ Compute – Modern Workloads
+### 3️⃣ Compute – Modern Workloads
 - 🖥️ Amazon EC2 (Graviton, Spot, Auto Scaling)  
 - ⚡ AWS Lambda (Serverless Functions)  
 - 🚀 AWS Fargate (Serverless Containers)  
@@ -26,7 +35,7 @@ No outdated tools – only the **most in-demand AWS technologies** with hands-on
 
 ---
 
-### 3️⃣ Networking & Security
+### 4️⃣ Networking & Security
 - 🌐 Amazon VPC Lattice (latest for service-to-service networking)  
 - 🔐 AWS WAF + Shield Advanced  
 - 🛡️ PrivateLink for secure communication  
@@ -34,7 +43,7 @@ No outdated tools – only the **most in-demand AWS technologies** with hands-on
 
 ---
 
-### 4️⃣ Storage & Databases
+### 5️⃣ Storage & Databases
 - 🗄️ Amazon S3 (Object Lambda, Intelligent Tiering)  
 - 📊 Amazon Aurora Serverless v2  
 - ⚡ DynamoDB (NoSQL, On-Demand)  
@@ -42,7 +51,7 @@ No outdated tools – only the **most in-demand AWS technologies** with hands-on
 
 ---
 
-### 5️⃣ CI/CD & DevOps Tooling
+### 6️⃣ CI/CD & DevOps Tooling
 - 🔄 CodeCommit, CodeBuild, CodeDeploy, CodePipeline  
 - 🤝 GitHub Actions / GitLab CI/CD with AWS  
 - 🚀 Amazon CodeCatalyst (latest SDLC + CI/CD platform)  
@@ -50,7 +59,7 @@ No outdated tools – only the **most in-demand AWS technologies** with hands-on
 
 ---
 
-### 6️⃣ Containers & Orchestration
+### 7️⃣ Containers & Orchestration
 - 📦 Amazon EKS (Kubernetes on AWS)  
 - 🛠 Helm on EKS  
 - 🚢 ECS Fargate vs App Runner vs Lambda (when to use what)  
@@ -58,14 +67,14 @@ No outdated tools – only the **most in-demand AWS technologies** with hands-on
 
 ---
 
-### 7️⃣ Infrastructure as Code (IaC)
+### 8️⃣ Infrastructure as Code (IaC)
 - 🏗 Terraform on AWS (modules, workspaces, remote state)  
 - 🛠 AWS CDK v2 (TypeScript/Python)  
 - 🏛 CloudFormation (with CDK integration)  
 
 ---
 
-### 8️⃣ Monitoring, Observability & SRE
+### 9️⃣ Monitoring, Observability & SRE
 - 📊 CloudWatch (Logs, Metrics, Alarms, ServiceLens)  
 - 📡 AWS X-Ray (Distributed Tracing)  
 - 🔎 CloudTrail + Audit Manager (compliance)  
@@ -74,7 +83,7 @@ No outdated tools – only the **most in-demand AWS technologies** with hands-on
 
 ---
 
-### 9️⃣ Security, Compliance & Governance
+### 🔟 Security, Compliance & Governance
 - 🛡️ Security Hub  
 - ✅ Config + Conformance Packs (Compliance as Code)  
 - 🔐 GuardDuty, Macie, Inspector  
@@ -82,7 +91,7 @@ No outdated tools – only the **most in-demand AWS technologies** with hands-on
 
 ---
 
-### 🔟 Cost Optimization & FinOps
+### 1️⃣1️⃣ Cost Optimization & FinOps
 - 💰 AWS Compute Optimizer  
 - 📉 Savings Plans & Spot Instance Strategies  
 - 📊 AWS Cost Explorer & Budgets  
@@ -112,7 +121,7 @@ By completing this course, you will:
 ---
 
 👨‍🏫 **Instructor:** [Namdev Rathod](https://www.linkedin.com/in/namdevrathod/)  
-📧 Contact: namdev.devops@gmail.com 
+📧 Contact: namdev.devops@gmail.com  
 📺 YouTube: [@namdev.devops](https://www.youtube.com/@namdev.devops)  
 
 ---
