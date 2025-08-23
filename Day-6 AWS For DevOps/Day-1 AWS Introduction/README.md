@@ -44,7 +44,8 @@ Cloud technologies allow businesses and individuals to use computing resources l
 | **Cost Model**  | Large upfront investment in servers, data centers, licenses | Pay-as-you-go (per hour/GB/service)     |
 | **Scalability** | Limited, need to buy new hardware                           | Highly scalable, almost instant         |
 | **Maintenance** | Company responsible (hardware, power, cooling, staff)       | Managed by cloud provider               |
-| **Flexibility** | Low – fixed resources                                       | High – resources on demand              |
+| **Flexibility** | Low – fixed re
+sources                                       | High – resources on demand              |
 | **Risk**        | Risk of underutilization or over-provisioning               | Reduced risk, only pay for what you use |
 | **Example**     | Bank builds \$2M data center                                | Startup spends \$200/month on AWS       |
 
@@ -64,20 +65,51 @@ Cloud technologies allow businesses and individuals to use computing resources l
 
 ---
 
-### 🆓 AWS Free Tier Account Setup
+### 🚀 AWS Free Tier (Free Plan) – 2025 Update
 
-AWS provides a **Free Tier** to help beginners and companies try services with no upfront cost.
+## 🆕 What Changed After **July 15, 2025**?
 
-* **Free Tier Types**
+* 🎁 **\$100 AWS Credits** instantly on sign-up.
+* ➕ **Earn up to \$100 more** by completing simple **hands-on activities** (e.g., launch EC2, deploy Lambda, configure RDS, set a budget, test Amazon Bedrock).
+  👉 [AWS Blog – Free Tier Update](https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits/?utm_source=chatgpt.com)
+* 🆓 Explore AWS with the **Free Plan** (risk-free, no bills unless you upgrade).
+  👉 [AWS Free Tier Overview](https://aws.amazon.com/free/?utm_source=chatgpt.com)
+* ♾️ **30+ Always-Free Services** remain available, e.g., Lambda, DynamoDB, S3, CloudWatch.
+  👉 [AWS Docs – Free Tier Services](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier.html?utm_source=chatgpt.com)
+* ⏳ Free Plan lasts **6 months or until credits expire**.
+  👉 [AWS Docs – Free Plan Details](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-plans.html?utm_source=chatgpt.com)
 
-  * ✅ **12-Month Free**: EC2 (750 hours/month of t2.micro or t3.micro), S3 (5 GB storage), RDS (750 hours of db.t2.micro).
-  * ✅ **Always Free**: Lambda (1M requests), DynamoDB (25 GB storage), CloudWatch (10 custom metrics).
-  * ✅ **Trials**: Short-term free trials for services like GuardDuty, Macie, and Redshift.
+---
 
-* **Limitations** ⚠️
+## 📊 Free Plan vs Paid Plan (Comparison)
 
-  * Services revert to **standard pricing** once free tier usage is exceeded.
-  * Always monitor billing with AWS **Budgets** to avoid surprises.
+| Feature                    | Free Plan (New Accounts)                                                                                                                          | Paid Plan (Optional Upgrade)          |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| **Initial Credits**        | \$100 sign-up + earn \$100 via activities                                                                                                         | Same                                  |
+| **Access to AWS Services** | Limited set + always-free services                                                                                                                | Full access to 150+ AWS services      |
+| **Charges**                | None while credits last                                                                                                                           | Pay-as-you-go (credits applied first) |
+| **Account Duration**       | Ends after 6 months or credits expire                                                                                                             | Unlimited (pay-as-you-go)             |
+| **Post-Expiry**            | Can be upgraded within 90 days ([docs](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-plans.html?utm_source=chatgpt.com)) | Continuous usage                      |
+| **Eligibility**            | Only for new accounts (legacy Free Tier unaffected)                                                                                               | Available to all accounts             |
+
+---
+
+## 💡 Benefits
+
+* 🎯 **Beginner-friendly onboarding**: Start with credits, no billing risk.
+* 🛠️ **Earn by learning**: Hands-on with real services.
+* 🛡️ **Cost safety net**: No surprise bills, credits enforce limits.
+* 🔄 **Always-free core services**: Lambda, DynamoDB, CloudWatch, S3.
+
+---
+
+## 📝 Getting Started
+
+1. **Sign up** → [AWS Free Tier Page](https://aws.amazon.com/free/?utm_source=chatgpt.com)
+2. **Complete activity goals** → Earn full \$200 credits.
+3. **Enable AWS Budgets** → [Docs – AWS Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html?utm_source=chatgpt.com)
+4. **Track usage** → [AWS Cost Explorer](https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html?utm_source=chatgpt.com)
+5. **Upgrade if needed** before Free Plan expires.
 
 👉 Example: Many students and startups begin with the Free Tier to test ideas before investing.
 
