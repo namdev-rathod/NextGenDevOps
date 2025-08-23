@@ -146,7 +146,5 @@ AWS provides **Budgets & Cost Explorer** to track and manage costs.
 
 ---
 
-✅ With this foundation, candidates will clearly understand **what cloud is, why AWS is popular, how to start safely with Free Tier, and how AWS Global Infrastructure enables scalability and reliability**.
 
----
 
