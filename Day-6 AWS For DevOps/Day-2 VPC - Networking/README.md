@@ -152,6 +152,55 @@ VPC CIDR: 10.0.0.0/16
 
 ---
 
+# 🛡️ NACL vs Security Group in AWS VPC
+
+---
+
+## 1️⃣ Security Group (SG)
+
+* **Definition:** A **stateful virtual firewall** at the **instance level**.
+* Controls **inbound and outbound traffic** for EC2 instances.
+* **Stateful:** If an inbound rule allows traffic, the response is automatically allowed.
+* **Applied to:** EC2, RDS, Lambda (VPC-enabled)
+
+**Example:**
+
+* EC2 web server allows inbound port 80/443 from the internet.
+* Any outbound response to the requester is automatically allowed.
+
+---
+
+## 2️⃣ Network ACL (NACL)
+
+* **Definition:** A **stateless firewall** applied at the **subnet level**.
+* Controls **inbound and outbound traffic** for all instances in a subnet.
+* **Stateless:** Return traffic must have explicit rules.
+* **Applied to:** Entire subnet, affecting all resources inside.
+
+**Example:**
+
+* Block IP range `192.168.10.0/24` from accessing subnet.
+* Even if SG allows traffic, NACL can block it.
+
+---
+
+## 3️⃣ Comparison Table: NACL vs Security Group
+
+| Feature                  | Security Group 🛡️                   | Network ACL 🚦                                              |
+| ------------------------ | ------------------------------------ | ----------------------------------------------------------- |
+| **Scope**                | Instance-level                       | Subnet-level                                                |
+| **Stateful / Stateless** | Stateful                             | Stateless                                                   |
+| **Inbound Rules**        | Allowed automatically for responses  | Explicit rules required for inbound/outbound                |
+| **Outbound Rules**       | Explicitly defined                   | Explicitly defined                                          |
+| **Default Behavior**     | Deny all inbound, allow all outbound | Allow all inbound & outbound by default                     |
+| **Rule Order**           | Evaluated collectively               | Evaluated **numerically** (lowest number first)             |
+| **Number of Rules**      | Up to 60 inbound/outbound per SG     | Up to 20 inbound + 20 outbound per NACL (default)           |
+| **Can Block IPs**        | No, only allow rules                 | Yes, can explicitly allow or deny                           |
+| **Best Use Case**        | Instance-specific firewall           | Subnet-wide extra security layer, block known malicious IPs |
+
+---
+
+
 ## 🔑 Best Practices
 
 1. Always use **Custom VPCs** for production
@@ -160,9 +209,5 @@ VPC CIDR: 10.0.0.0/16
 4. Use **Transit Gateway** for multi-VPC connectivity
 5. Enable **VPC Flow Logs** to monitor traffic
 6. Avoid using **Default VPC** in production
-
----
-
-✅ This covers everything about **VPC, IP addressing, subnets, NAT, Transit Gateway, Direct Connect, security, and best practices**, with real-world examples and visuals for teaching.
 
 ---
