@@ -3,6 +3,7 @@
 ### ☁️ What is Cloud Technologies?
 
 Cloud technologies allow businesses and individuals to use computing resources like servers, databases, storage, networking, and applications over the internet instead of owning and maintaining physical hardware.
+
 👉 Example: Netflix doesn’t run its own massive data centers — it uses **AWS Cloud** to stream billions of hours of content globally.
 
 ---
@@ -32,6 +33,34 @@ Cloud technologies allow businesses and individuals to use computing resources l
 * **Global Reach** 🌍 – Deploy apps close to customers worldwide.
 * **High Availability & Reliability** 🔄 – Built-in redundancy using Availability Zones.
 * **Security** 🔒 – Enterprise-grade security managed by AWS.
+
+---
+
+
+## 🏢 On-Premises vs ☁️ Cloud (CAPEX vs OPEX)
+
+| Aspect          | On-Premises (CAPEX) 💰                                      | Cloud (OPEX) ☁️                         |
+| --------------- | ----------------------------------------------------------- | --------------------------------------- |
+| **Cost Model**  | Large upfront investment in servers, data centers, licenses | Pay-as-you-go (per hour/GB/service)     |
+| **Scalability** | Limited, need to buy new hardware                           | Highly scalable, almost instant         |
+| **Maintenance** | Company responsible (hardware, power, cooling, staff)       | Managed by cloud provider               |
+| **Flexibility** | Low – fixed resources                                       | High – resources on demand              |
+| **Risk**        | Risk of underutilization or over-provisioning               | Reduced risk, only pay for what you use |
+| **Example**     | Bank builds \$2M data center                                | Startup spends \$200/month on AWS       |
+
+---
+
+### 📌 Short Definitions
+
+* **CAPEX (Capital Expenditure)**: *Upfront, long-term investment in physical infrastructure (servers, data centers, licenses).*
+* **OPEX (Operational Expenditure)**: *Ongoing cost where you pay only for what you use (subscription/pay-per-use model).*
+
+---
+
+⚡ Quick Analogy:
+
+* **CAPEX = Buying a Car 🚗** (big one-time cost, you own it, maintenance is your responsibility).
+* **OPEX = Using Uber/Ola 🚕** (pay per ride, no ownership, provider maintains it).
 
 ---
 
