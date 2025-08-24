@@ -205,6 +205,72 @@ VPC CIDR: 10.0.0.0/16
 
 ---
 
+# ⚖️ Stateful vs Stateless
+
+---
+
+## 1️⃣ **Stateful**
+
+👉 A **stateful system/firewall** remembers the **connection state**.
+
+* If you allow traffic **in one direction**, the **return traffic is automatically allowed**.
+* No need to explicitly define the return rule.
+
+🔑 **Key Points:**
+
+* Tracks the session/connection (like a conversation).
+* Simplifies rules → you only allow one side.
+* Example in AWS → **Security Groups (SGs)**.
+
+**Example:**
+
+* You allow **inbound HTTP (TCP 80)** from the internet to an EC2 instance.
+* When the server replies, the **outbound response is automatically allowed**.
+
+✅ Security Group = **Stateful**
+
+---
+
+## 2️⃣ **Stateless**
+
+👉 A **stateless system/firewall** does **not remember connection states**.
+
+* You must explicitly define rules for **both inbound and outbound traffic**.
+* More granular control, but requires careful configuration.
+
+🔑 **Key Points:**
+
+* Doesn’t track sessions.
+* Every packet is checked individually.
+* Example in AWS → **Network ACL (NACLs)**.
+
+**Example:**
+
+* If you allow **inbound HTTP (TCP 80)** from the internet,
+* You also must allow **outbound TCP (1024-65535)** (ephemeral ports) for the response.
+
+✅ NACL = **Stateless**
+
+---
+
+## 📊 Comparison Table
+
+| Feature                   | Stateful 🔒 (SG)        | Stateless 🚦 (NACL)          |
+| ------------------------- | ----------------------- | ---------------------------- |
+| **Remembers connection?** | Yes ✅                   | No ❌                         |
+| **Response traffic**      | Auto allowed            | Needs explicit rule          |
+| **Ease of use**           | Simpler                 | More complex                 |
+| **AWS Example**           | Security Group          | Network ACL                  |
+| **Best For**              | Instance-level firewall | Subnet-level extra filtering |
+
+---
+
+## 🎯 Easy Analogy
+
+* **Stateful:** Like a **doorman** – if you are let in, the doorman remembers you and lets you out without asking again.
+* **Stateless:** Like a **robotic gate** – it checks **every time** you go in or out, no memory of who you are.
+
+---
 
 ## 🔑 Best Practices
 
