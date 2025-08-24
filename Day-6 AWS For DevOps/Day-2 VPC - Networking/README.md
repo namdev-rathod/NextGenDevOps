@@ -48,27 +48,32 @@ A **VPC (Virtual Private Cloud)** is a logically isolated virtual network in AWS
 ## 4️⃣ IP Addressing in VPC
 
 * **CIDR Block:** Defines your VPC range, e.g., `10.0.0.0/16` → 65,536 IPs
+
 * **Subnetting:** Divide VPC into smaller networks
 
   * Public: `10.0.1.0/24` → 256 IPs
   * Private: `10.0.2.0/24` → 256 IPs
+
 * **IP Types:**
 
   * Private IP 🏠: Internal communication (`10.0.2.5`)
   * Public IP 🌐: Internet-facing (`3.25.78.12`)
+
 * **MAC Address 🖧:** Each network interface gets a unique MAC for internal routing
 
 ---
 
-## 5️⃣ IP Classes (IPv4)
+## 🏠 Private IP Address Ranges (RFC 1918)
 
-| Class | Range                       | Default Subnet Mask | Use Case        |
-| ----- | --------------------------- | ------------------- | --------------- |
-| A     | 1.0.0.0 – 126.255.255.255   | /8                  | Large networks  |
-| B     | 128.0.0.0 – 191.255.255.255 | /16                 | Medium networks |
-| C     | 192.0.0.0 – 223.255.255.255 | /24                 | Small networks  |
-| D     | 224.0.0.0 – 239.255.255.255 | N/A                 | Multicast       |
-| E     | 240.0.0.0 – 255.255.255.255 | N/A                 | Experimental    |
+These are reserved ranges you can use inside your **VPCs**, offices, and internal networks. They are **not routable on the internet**.
+
+| Range                             | CIDR             | Size (# of IPs) | Common Use Case                           |
+| --------------------------------- | ---------------- | --------------- | ----------------------------------------- |
+| **10.0.0.0 – 10.255.255.255**     | `10.0.0.0/8`     | \~16.7 million  | Large enterprises, AWS VPC default option |
+| **172.16.0.0 – 172.31.255.255**   | `172.16.0.0/12`  | \~1 million     | Medium networks, corporate VPNs           |
+| **192.168.0.0 – 192.168.255.255** | `192.168.0.0/16` | 65,536          | Small/home networks, labs                 |
+
+> ✅ In AWS VPCs, the most **commonly used ranges** are `10.0.0.0/16` or `172.16.0.0/16`.
 
 ---
 
