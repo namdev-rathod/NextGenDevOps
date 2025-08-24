@@ -272,6 +272,97 @@ VPC CIDR: 10.0.0.0/16
 
 ---
 
+# 🔗 AWS Transit Gateway
+
+## 📖 Theory
+
+An **AWS Transit Gateway (TGW)** is a **central networking hub** that connects multiple **VPCs, on-premises networks (via VPN/Direct Connect), and even other regions**.
+
+* Works like a **cloud router**.
+* Uses a **hub-and-spoke model** → avoids complex full-mesh VPC peering.
+* Provides **centralized routing and monitoring**.
+* Scales to **thousands of VPCs**.
+
+✅ **Best for large organizations** that need to connect multiple VPCs and hybrid environments.
+
+---
+
+## 🏢 Real-Time Example
+
+Imagine a **retail company**:
+
+* Has 3 VPCs → **Dev**, **Test**, **Prod**.
+* Has an **on-premises data center** with inventory systems.
+
+**Without TGW:**
+
+* You need many **VPC peering links** → complex and hard to manage.
+
+**With TGW:**
+
+* Each VPC and the on-premises data center connect **once** to the Transit Gateway.
+* Now all can communicate easily → **simple, centralized, scalable**.
+
+---
+
+# 🛡️ AWS Network Firewall
+
+## 📖 Theory
+
+An **AWS Network Firewall** is a **managed, stateful firewall** that protects your VPC at **Layer 3–7** (IP, ports, domains, applications).
+
+* Provides **fine-grained traffic filtering**.
+* Supports **Intrusion Detection (IDS)** and **Intrusion Prevention (IPS)**.
+* Complements **Security Groups (SGs)** and **Network ACLs (NACLs)** with advanced security.
+* Can block malicious IPs, domains, or unauthorized applications.
+
+✅ **Best for organizations** that need compliance, deep inspection, and protection against cyber threats.
+
+---
+
+## 🏦 Real-Time Example
+
+Imagine a **bank**:
+
+* Public Subnet → Web servers (HTTPS).
+* Private Subnet → Database servers.
+
+**Problem:**
+
+* Only allow **HTTPS (443)** traffic.
+* Block ❌ connections to malicious IPs/domains.
+* Prevent employees in private subnets from visiting **social media sites**.
+
+**Solution:**
+
+* Deploy **AWS Network Firewall**.
+* Create rules: allow HTTPS ✅, block gaming/social ❌, filter known attacker IPs ❌.
+
+---
+
+# 📊 Table Comparison: Transit Gateway vs Network Firewall
+
+| Feature / Aspect       | **Transit Gateway 🔗**                                 | **Network Firewall 🛡️**                          |
+| ---------------------- | ------------------------------------------------------ | ------------------------------------------------- |
+| **Purpose**            | Connects multiple VPCs, VPNs, and on-premises networks | Secures traffic entering/leaving subnets & VPCs   |
+| **Analogy**            | Airport hub connecting many cities ✈️                  | Security guard checking everyone at the gate 🚓   |
+| **Layer of Operation** | Layer 3 (Routing)                                      | Layer 3–7 (Routing + Deep Packet Inspection)      |
+| **Scope**              | Multi-VPC / hybrid connectivity                        | VPC/Subnet traffic protection                     |
+| **Routing**            | Centralized, scalable, cross-region routing            | Not routing – filtering, blocking, and inspecting |
+| **Traffic Control**    | Decides **where packets go**                           | Decides **which packets are allowed/blocked**     |
+| **Best Use Case**      | Enterprise with many VPCs + hybrid cloud               | Enterprise needing strict security/compliance     |
+| **AWS Equivalent**     | Cloud Router                                           | Managed Firewall Appliance                        |
+| **Real Example**       | Retail company linking Dev, Test, Prod, and On-Prem    | Bank allowing only HTTPS, blocking malicious IPs  |
+
+---
+
+✅ **In short:**
+
+* **Transit Gateway = Connect networks together (like a router)**.
+* **Network Firewall = Protect those networks (like a firewall/security guard).**
+
+---
+
 ## 🔑 Best Practices
 
 1. Always use **Custom VPCs** for production
