@@ -1,4 +1,4 @@
-# 🚀 DevOps Mastery - Batch 8
+# 🚀 NextGen DevOps - Batch 9
 
 > 🌐 A Complete Industry-Driven DevOps Program  
 > 🔧 Covers: DevOps | DevSecOps | SRE | Cloud | IaC | FinOps | AIOps  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🗓️ Batch-8 Details
+## 🗓️ Batch-9 Details
 
 - 📅 **Start Date**: 4th Oct 2025  
 - 🕗 **Time**: 8 PM to 10 PM IST  
