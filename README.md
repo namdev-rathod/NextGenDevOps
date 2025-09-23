@@ -12,8 +12,7 @@
 - 🕗 **Time**: 8 PM to 10 PM IST  
 - 📆 **Mode**: Online Weekend (Sat & Sun, 2 hrs/day)  
 - ⏳ **Duration**: 3 Months  
-- 💰 **Fees**:
-  - ₹15,000/- (One-Time Payment) 
+- 💰 **Fees**: ₹15,000/- (India) | 🌍 ₹20,000/- (Outside India)
 - 🗣️ **Language**: English  
 - 📲 **Registration**: [WhatsApp - 7276 12 1983](https://wa.me/917276121983)
 - 📺 **Subscribe For More Videos**: [youtube.com/@namdev.devops](https://www.youtube.com/@namdev.devops)
