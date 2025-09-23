@@ -8,12 +8,12 @@
 
 ## 🗓️ Batch-8 Details
 
-- 📅 **Start Date**: 26th July 2025  
+- 📅 **Start Date**: 4th Oct 2025  
 - 🕗 **Time**: 8 PM to 10 PM IST  
 - 📆 **Mode**: Online Weekend (Sat & Sun, 2 hrs/day)  
 - ⏳ **Duration**: 3 Months  
 - 💰 **Fees**:
-  - ₹14,000/- (One-Time Payment) 
+  - ₹15,000/- (One-Time Payment) 
 - 🗣️ **Language**: English  
 - 📲 **Registration**: [WhatsApp - 7276 12 1983](https://wa.me/917276121983)
 - 📺 **Subscribe For More Videos**: [youtube.com/@namdev.devops](https://www.youtube.com/@namdev.devops)
