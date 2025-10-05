@@ -16,11 +16,17 @@ Think of it like writing a recipe 📜 for your cloud setup — servers, network
 Here’s why DevOps engineers ❤️ Terraform:
 
 ✅ **Automation** — No manual setup, everything via code.
+
 ✅ **Multi-Cloud Support** — Works with AWS, Azure, GCP, Kubernetes, etc.
+
 ✅ **Consistency** — Same setup every time — no “it works on my machine” issues 😅
+
 ✅ **Safe Changes** — You can preview before applying using `terraform plan`.
+
 ✅ **Version Control** — Store your infrastructure code in GitHub for teamwork 👨‍💻
+
 ✅ **Reusable Code** — Write once, use again with modules.
+
 ✅ **Open Source & Free** — 100% free to use! 🎉
 
 ---
