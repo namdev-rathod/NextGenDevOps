@@ -1,4 +1,4 @@
-# 🚀 NextGen DevOps - Batch 9
+# 🚀 Corporate DevOps - Batch 10
 
 > 🌐 A Complete Industry-Driven DevOps Program  
 > 🔧 Covers: DevOps | DevSecOps | SRE | Cloud | IaC | FinOps | AIOps  
@@ -6,13 +6,13 @@
 
 ---
 
-## 🗓️ Batch-9 Details
+## 🗓️ Batch-10 Details
 
-- 📅 **Start Date**: 4th Oct 2025  
-- 🕗 **Time**: 8 PM to 10 PM IST  
+- 📅 **Start Date**: 15th Nov 2025  
+- 🕗 **Time**: 8 AM to 10 AM IST  
 - 📆 **Mode**: Online Weekend (Sat & Sun, 2 hrs/day)  
 - ⏳ **Duration**: 3 Months  
-- 💰 **Fees**: ₹12,000/- (India) | 🌍 ₹15,000/- (Outside India)
+- 💰 **Fees**: ₹15,000/- (India) | 🌍 ₹25,000/- (Outside India)
 - 🗣️ **Language**: English  
 - 📲 **Registration**: [WhatsApp - 7276 12 1983](https://wa.me/917276121983)
 - 📺 **Subscribe For More Videos**: [youtube.com/@namdev.devops](https://www.youtube.com/@namdev.devops)
