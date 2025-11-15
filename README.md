@@ -12,7 +12,7 @@
 
 💻 **GitHub:** [https://github.com/namdev-rathod/](https://github.com/namdev-rathod/)
 
-▶️ **YouTube:** [https://www.youtube.com/@namdev.devops](https://www.youtube.com/@namdev.devops)
+▶️ **YouTube:** [DevOps With Namdev](https://www.youtube.com/@namdev.devops)
 
 📱 **For More Details:** WhatsApp **7276 12 1983**
 
