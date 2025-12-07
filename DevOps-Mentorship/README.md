@@ -3,7 +3,6 @@
 
 ## 💼 MENTORSHIP PLAN A – CORE DEVOPS LEARNING  
 **💰 Price:** Rs. 12,000 per month  
-**📌 Minimum Commitment:** 2 Months  
 
 ### ✅ What You Get:
 - 🗺️ **Personalized DevOps Roadmap** (Beginner to Job-Ready)  
@@ -31,7 +30,6 @@
 
 ## ⚡ MENTORSHIP PLAN B – PRO DEVOPS ACCELERATOR  
 **💰 Price:** Rs. 32,000 per month  
-**📌 Minimum Commitment:** 2 Months  
 
 ### 🔥 Includes Everything in Plan A, plus:
 - ❓ **Weekend Q&A Session – 1 Hour** (Saturday or Sunday)  
