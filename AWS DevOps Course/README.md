@@ -202,6 +202,7 @@ By the end of this program, learners will be able to:
 - CI/CD pipeline integration
 - Security and monitoring setup
 - Production-ready architecture
+- Helm Charts
 
 ---
 
@@ -217,10 +218,9 @@ By the end of this program, learners will be able to:
 ## 🤝 Bonus Modules
 
 ### DevOps Mentorship Program
-- One-to-one guidance
+- Life Time Community Access
 - Career planning and roadmap
 - Interview preparation
-- Real-time production troubleshooting
 
 ---
 
