@@ -178,7 +178,7 @@ The objective of this course is to help learners:
 ## 💰 Pricing
 - Regular Price: ₹20,000/-  
 - Early Bird Access: ₹15,000/- (Valid till 7th Feb 2026 only)  
-- Offer Valid Till: **5th Jan 2026**  
+- Offer Valid Till: **7th Feb 2026**  
 
 ---
 
