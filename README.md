@@ -157,11 +157,11 @@
 
 ## 🗓️ Batch-10 Details - Enroll Now...!!
 
-- 📅 **Start Date**: 16th Nov 2025  
+- 📅 **Start Date**: 1st March 2026 
 - 🕗 **Time**: 9 AM to 11 AM IST  
 - 📆 **Mode**: Online Weekend (Sat & Sun, 2 hrs/day)  
 - ⏳ **Duration**: 3 Months  
-- 💰 **Fees**: ₹15,000/- (India) | 🌍 ₹20,000/- (Outside India)
+- 💰 **Fees**: ₹12,000/- (India) | 🌍 ₹18,000/- (Outside India)
 - 🗣️ **Language**: English  
 - 📲 **Registration**: [WhatsApp - 7276 12 1983](https://wa.me/917276121983)
 - 📺 **Subscribe For More Videos**: [youtube.com/@namdev.devops](https://www.youtube.com/@namdev.devops)
