@@ -18,7 +18,7 @@
 
 ---
 
-# 📘 **Course Batch-10## 🔹 **Module–1: Corporate DevOps Foundations**
+# 📘 **Course Batch-1** 🔹 **Module–1: Corporate DevOps Foundations**
 
 1. 🛣️ DevOps Roadmap & Learning Strategy
 2. 👥 Team Formation & Cross-Functional Collaboration
