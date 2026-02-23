@@ -18,9 +18,7 @@
 
 ---
 
-# 📘 **Course Curriculum — Corporate Batch-10**
-
-## 🔹 **Module–1: Corporate DevOps Foundations**
+# 📘 **Course Batch-10## 🔹 **Module–1: Corporate DevOps Foundations**
 
 1. 🛣️ DevOps Roadmap & Learning Strategy
 2. 👥 Team Formation & Cross-Functional Collaboration
@@ -155,7 +153,7 @@
 
 ---
 
-## 🗓️ Batch-10 Details - Enroll Now...!!
+## 🗓️ Batch-1 Details.!!
 
 - 📅 **Start Date**: 1st March 2026 
 - 🕗 **Time**: 9 AM to 11 AM IST  
