@@ -1,4 +1,4 @@
-# 🚀 **DevOps Corporate Batch-10 — Enroll Now!**
+# 🚀 **AI Powerered DevOps Job Ready Batch-1 — Enroll Now!**
 
 **Learn End-to-End Real-World DevOps from 14+ Years IT Expert**
 
