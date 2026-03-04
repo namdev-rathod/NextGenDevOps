@@ -5,12 +5,16 @@
 Learn **Real-World DevOps + AI Productivity Tools** used by modern engineering teams.
 
 👨‍💻 **Mentor:** Namdev Rathod
+
 🔧 **15+ Years Enterprise IT Experience**
+
 🏆 **Multiple Global Certifications**
 
 🔗 LinkedIn: [https://www.linkedin.com/in/namdevrathod/](https://www.linkedin.com/in/namdevrathod/)
+
 💻 GitHub: [https://github.com/namdev-rathod/](https://github.com/namdev-rathod/)
-▶️ YouTube: **DevOps With Namdev**
+
+▶️ YouTube: **DevOps With Namdev** https://www.youtube.com/@namdev.devops
 
 📱 **Registration / Details:** WhatsApp – 7276 12 1983
 
