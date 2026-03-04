@@ -155,11 +155,11 @@
 
 ## 🗓️ Batch-1 Details.!!
 
-- 📅 **Start Date**: 1st March 2026 
+- 📅 **Start Date**: 15th March 2026 
 - 🕗 **Time**: 9 AM to 11 AM IST  
 - 📆 **Mode**: Online Weekend (Sat & Sun, 2 hrs/day)  
 - ⏳ **Duration**: 3 Months  
-- 💰 **Fees**: ₹12,000/- (India) | 🌍 ₹18,000/- (Outside India)
+- 💰 **Fees**: ₹12,000/- (India) | 🌍 ₹15,000/- (Outside India)
 - 🗣️ **Language**: English  
 - 📲 **Registration**: [WhatsApp - 7276 12 1983](https://wa.me/917276121983)
 - 📺 **Subscribe For More Videos**: [youtube.com/@namdev.devops](https://www.youtube.com/@namdev.devops)
