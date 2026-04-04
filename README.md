@@ -9,27 +9,22 @@
 Build • Deploy • Operate • Optimize — With AI
 ------------------------------------------------
 
-🤖 AI-Driven CI/CD & DevSecOps
-☸️ Kubernetes Production Platforms
-☁️ AWS Cloud + Enterprise Networking
-🔐 Security, Firewall & Zero-Trust Design
-📊 AI Monitoring, Auto-Healing & RCA
-💰 AI FinOps & Cost Optimization
-🧠 Custom AI (MCP Server + FastAPI)
+## 📚 Topics Covered
 
-------------------------------------------------
-✨ Powered By ✨
-• Cursor (AI IDE)
-• Cody (AI PR Reviews)
-• AWS AI Services
-• GitHub Copilot & Claude
-• Custom MCP Server
-
-👨‍💻 Mentored by: Namdev Rathod
-14+ Years | Enterprise DevOps & Cloud Architect
-
-📅 COMING SOON — JAN 2026
-⭐ Star this repo to stay updated!
-
-🚀 Train for how enterprises will run DevOps in 2026 —
-not how tutorials ran it in 2018.
+1. Industry Overview  
+2. Real-World DevOps Practices  
+3. Team Collaboration in DevOps  
+4. GitHub Advanced (Enterprise Usage)  
+5. GitHub Actions (CI/CD Automation)  
+6. Azure DevOps  
+7. Kubernetes (Production-Level Concepts)  
+8. Helm Charts (Umbrella Charts)  
+9. Networking for DevOps  
+10. Terraform (Advanced)  
+11. SSO Integrations (SAML/OIDC)  
+12. Python for DevOps Automation  
+13. DevSecOps (Security Tools Integration)  
+14. AI in DevOps  
+15. Prompt Engineering for DevOps  
+16. AI Integration with VS Code  
+17. Real-World DevOps Projects  
