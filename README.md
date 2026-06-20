@@ -14,6 +14,55 @@ This is not theory-based learning — this is **real job simulation training**.
 
 ---
 
+Here’s a clean, professional version of your content—perfect for a **LinkedIn post, brochure, or community onboarding message**:
+
+---
+
+## 🚀 DevOps Batch – Pre-requisites & Common Student Blockers
+
+### ✅ Pre-requisites to Join the Batch
+
+Before you start your DevOps journey, make sure you have:
+
+* 🔹 **AWS Free Tier Account**
+* 🔹 A **personal laptop** with stable internet connectivity
+* 🔹 **GitHub Account** (for version control & collaboration)
+* 🔹 **Docker Hub Account** (for container image management)
+* 🔹 Basic tools installed on your system:
+
+  * Terraform
+  * AWS CLI
+  * Git
+  * VS Code
+  * FreeLens (Kubernetes IDE)
+
+---
+
+### 🚧 Common Blockers Faced by Students
+
+Many learners struggle not because of lack of ability, but due to:
+
+* ❌ No clear **roadmap** to follow
+* ❌ Lack of **structured planning**
+* ❌ Absence of **right mentorship & guidance**
+* ❌ Fear of learning **new technologies**
+* ❌ Not understanding the **real value of DevOps skills**
+* ❌ Confusion due to **AI hype & social media noise**
+* ❌ Learning only through **theory or YouTube**, without real-world projects
+
+---
+
+### 💡 What Makes the Difference?
+
+👉 The right approach is:
+
+* Hands-on **real-time projects**
+* Clear **step-by-step roadmap**
+* Continuous **mentorship & support**
+* Learning by **doing, not just watching**
+
+---
+
 ## 📅 Batch Details
 - **Duration:** 3 Months  
 - **Schedule:** Weekend (Saturday & Sunday)  
