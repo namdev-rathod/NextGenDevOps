@@ -17,7 +17,7 @@ This is not theory-based learning — this is **real job simulation training**.
 ## 📅 Batch Details
 - **Duration:** 3 Months  
 - **Schedule:** Weekend (Saturday & Sunday)  
-- **Timing:** 9:00 AM – 12:00 PM (3 Hours)  
+- **Timing:** 8:00 AM – 10:00 AM (2 Hours)  
 - **Mode:** Live + Hands-on  
 - **Fees:** ₹20,000  
 
