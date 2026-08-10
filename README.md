@@ -10,11 +10,7 @@ Unlike typical courses, this program focuses on:
 - Team collaboration & Jira workflows  
 - AI-powered DevOps practices  
 
-This is not theory-based learning — this is **real job simulation training**.
-
----
-
-Here’s a clean, professional version of your content—perfect for a **LinkedIn post, brochure, or community onboarding message**:
+This is not theory-based learning — this is **real job simulation training**
 
 ---
 
@@ -68,7 +64,7 @@ Many learners struggle not because of lack of ability, but due to:
 - **Schedule:** Weekend (Saturday & Sunday)  
 - **Timing:** 8:00 AM – 10:00 AM (2 Hours)  
 - **Mode:** Live + Hands-on  
-- **Fees:** ₹20,000  
+- **Fees:** ₹20,000/- if paid one time then get Rs.4000/- spot discount 
 
 ---
 
