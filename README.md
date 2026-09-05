@@ -64,7 +64,7 @@ Many learners struggle not because of lack of ability, but due to:
 - **Schedule:** Weekend (Saturday & Sunday)  
 - **Timing:** 8:00 AM – 10:00 AM (2 Hours)  
 - **Mode:** Live + Hands-on  
-- **Fees:** ₹20,000/-
+- **Fees:** ₹15,000/-
 
 ---
 
